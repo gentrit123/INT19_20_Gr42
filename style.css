@@ -21,16 +21,7 @@ body{
   background:#000000;
   background-color:rgba(0,0,0,0.5);
 }
-.kuti2{
-width:80%;
-  margin:auto;
-  height:8rem;
-  padding:3rem;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  color:#ffffff;
-}
+
 .kuti3{
 color:#c3c3c3;
 }
