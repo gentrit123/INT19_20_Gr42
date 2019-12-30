@@ -218,4 +218,24 @@ body{
   background-size: cover;
   background-repeat: no-repeat; 
 }
-  
+.latestwork-img2{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(parajsa.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.latestwork-img3{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(exitwest.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
