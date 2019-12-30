@@ -134,3 +134,35 @@ body{
 .img-grayscale{
   filter:grayscale(10%);
 }
+.services{
+  
+  width: 80%;
+  margin: auto;
+  height: 30rem;
+  padding: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-box{
+  
+  background-image: url(dielli.jpg);
+  width: 20%;
+  height: 100%;
+  color: #303030;
+  background: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+.services-box:hover{
+  color: #ffffff;
+  background: #76c38f;
+}
+.services-box-icon{
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+.services-box p{
+  font-size: 2rem;
+  text-transform: uppercase;
+}
