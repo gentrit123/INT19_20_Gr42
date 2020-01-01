@@ -117,7 +117,29 @@ body{
   padding:0.5rem;
   margin-right:5rem;
 }
-.slider-img{
+.slider-img1{
+  width:23rem;
+  height:23rem;
+  border:1.5rem solid;
+  border-color: rgba(0,0,0.8);
+  border-radius:12rem;
+  background-imge:url(potter1.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.slider-img2{
+  width:23rem;
+  height:23rem;
+  border:1.5rem solid;
+  border-color: rgba(0,0,0.8);
+  border-radius:12rem;
+  background-imge:url(potter1.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.slider-img3{
   width:23rem;
   height:23rem;
   border:1.5rem solid;
@@ -238,4 +260,37 @@ body{
   background-size:cover;
   background-repeat:no-repeat;
 }
+.latestwork-img4{
+    width: 20rem;
+    height: 13rem;
+    border: 0.5rem solid #ffffff;
+    margin: 1rem;
+    cursor: pointer;
+    background-image: url(fotoja4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.latestwork-img5{
+    width: 20rem;
+    height: 13rem;
+    border: 0.5rem solid #ffffff;
+    margin: 1rem;
+    cursor: pointer;
+    background-image: url(fotoja5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.latestwork-img6{
+    width: 20rem;
+    height: 13rem;
+    border: 0.5rem solid #ffffff;
+    margin: 1rem;
+    cursor: pointer;
+    background-image: url(fotoja6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
 
