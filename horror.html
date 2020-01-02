@@ -5,10 +5,16 @@
       body
       {
         background-color:#f1f1f1;
-        background-image:url( );
+        background-image:url(horrorlibri.jpg);
         background-repeat:repeat;
         background-position:100px;
         background-size:100%;
+      }
+      h2{
+        color:red;
+      }
+      h3{
+        color:red
       }
       #div4
       {
@@ -20,6 +26,57 @@
         outline:4px solid blue;
         outline-offset:5px;
         margin:20px;
+      }
+      #h1{
+        text-shadow:3px 3px;
+      }
+      #div2{
+        width:500px;
+        height:300px;
+        margin:100px auto;
+        background:#008;
+        backgroud:-webkit-linear-gradient(top,black,white);
+        position:relative;
+        bottom:220px;
+        left:5px;
+        transform:scale(1,1);
+        transform:skew(5deg,5deg);
+      }
+      #div3{
+        width:300px;
+        height:300px;
+        margin:100px auto;
+        background:#008;
+        background:-webkit-radial-gradient(circle,white,black);
+        position:relative;
+        bottom:450px;
+        left:400px;
+        transform:translate(20px,20px);
+        transform rotateX(10deg);
+        transform rotateY(10deg);
+      }
+      #div1{
+        border-size:contain;
+        width:100px;
+        position:relative;
+        top:50px;
+        left:20px;
+        background:red;
+        border:30px solid transparent;
+        border-image-source:url(horror.jpg);
+        border-image-slice:100;
+        border-image-repeat:no-repeat;
+        background-origin:content-box;
+        transform:translate3d(20px,20px,20px);
+        transform:scale3d(1,1);
+        transform:rotateZ(20deg) rotateX(5deg) rotate(5deg) perspective(20px);
+      }
+      .box{
+        
+        background:red;
+        padding:2em;
+        box-shadow:red 20px 20px 20px;
+         border-radius:30px;
       }
       #div5 {
         color:red;
@@ -38,6 +95,32 @@
   from{background-color:black;}
   to{background-color:white;}
       }
+      .content-box{
+        width:100%;
+        height:100%;
+        background-size:cover;
+        background-repeat:no-repeat;
+      }
+      .baner-box{
+        width:100%;
+        height:40rem;
+        background:#000000;
+        background-color:rgba(0,0,0,0.5);
+      }
+      .header{
+        width:80%;
+        margin:auto;
+        height:8rem;
+        padding:3rem;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        color:#ffffff;
+      }
+      .header-logo p{
+        font-size:2rem;
+        margin:0;
+      }
       
         
     </style>
@@ -45,6 +128,97 @@
   </head>
   
   <body>
+    <div class="content-box">
+      <div class="baner-box">
+        <div class="header">
+          <div class="header-logo">
+            <p>Biblioteka Dituria</p>
+          </div>
+          <div class="header-nav">
+            <ul>
+              <li><a href="#">Kryefaqja</a></li>
+              <li><a href="#">Horror</a></li>
+              <li><a href="#">Mister</a></li>
+              <li><a href="#">Shkence</a></li>
+              <li><a href="#">Romance</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="slider-box-left">
+            <div class="slider-btn-center-fixed">&gt;</div>
+            <div class="slider-text">
+              <p>Origjina</p>
+              <small>Pershkrim i shkurter
+                Kushdo te jeni:Qfaredo te besoni:Gjithqka eshte gati te ndryshoj.Origjina eshte jashtzakonisht krijues-romani me i shkelqyer she me zbavites i Dan Brown-it deri me sot.Per me shume,ju ftojme te lexoni review e Ron Charles,editor i "Book World",rreth romanit Origjina ,botuar ne gazeten amerikane.</small>
+              <button type="button">Lexo me shume <span>&raquo;</span></button>
+            </div>
+            <div class="slider-box-img">
+              <div class="slider-img1 img-sepia"></div>
+            </div>
+            <div class="slider-btn-center">&gt;</div>
+          </div>
+          <div class="slider-box">
+            <div class="slider-btn-left">&lt;</div>
+            <div class="slider-text">
+              <p>Femijet e Hansenit</p>
+              <small>Pershkrim i shkurter
+                "Femijet e Hansenit" te Ognjen Spahic - fitues i qmimit europian te te letersise ,2014 - permes metafores brilante komunize-leber,autori sjell me elegance ,por pa meshire , pamjet e nje bote qe lexuesi i ka ndeshur me permysjen e regimeve totalitariste,friken per te thene deri ne fund te verteten , trishtimin, humorin,dhe horrorin ne kohe krizash.Eshte fundi i viteve 1980.Europa eshte gati te ndryshoje pergjithmone.</small>
+              <button type="button">Lexo me shume<span>&raquo;</span></button>
+            </div>
+            <div class="slider-box-img">
+              <div class="slider-img2"></div>
+            </div>
+            <div class="slider-btn-right-fixed">&gt;</div>
+            <div class="slider-btn-right">&gt;</div>
+          </div>
+          <div class="slider-box-right">
+            <div class="slider-btn-middle">&lt;</div>
+            <div class="slider-text">
+              <p>Femijet i peste </p>
+              <small>Pershkrim i shkurter:
+                Femija i peste ka intensitetin e tmerrit...E lexon dhe dridhesh.Independent "Doris Lessing mund te marre qfaredo gjinie-ne kete rast ,si nje ngjarje horror - e rivendos ate ne menyre briliante.Femija i peste eshte dramatik she i paharrueshem ,duke u luajtur si te qe nje prej frikave me te hershme."Guardian<span>&raquo;</span></button>
+            </div>
+            <div class="slider-box-img">
+              <div class="slider-img3 img-grayscale"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services">
+        <div class="services-box">
+          <p>Ne kopshtin e egersirave</p>
+          <small>Pershkrim i shkurter:
+            Nje veper verbuese dhe joshese qe flet me volume te tere rreth faktit se perse bota nuk e njohu rrezikun e kobshem te pozuar nga Hitleri derisa Berlini dhe e gjithe europa ,ishin mbytur ne gjak dhe terror.</small>
+        </div>
+        <div class="services-box">
+          <p>Weekend i mallkuar ne Bruksel</p>
+          <small>Pershkrim i shkurter
+            Ky roman , here autobiografik,here horror,dhe here-here satirik,na ofron boten e njerezve qe na gatuajne permes lajmeve dhe fatin e nje shoqerie qe filtrohet permes tyre.</small>
+        </div>
+        <div class="services-box">
+          <p>Ne kerkim te kemishes se humbur</p>
+          <small>Pershkrim i shkurter
+            "Ne kerkim te kemishes se humbur" eshte nje liber me 10 ese te shkruara plot elegance ,force dhe imagjinate mbi Shqiperine - "vendin e quditshem" qe, me shume se sa realitetin socialist , metoj te krijonte nje mitologji te fshehur pas Perdes se Hekurt.</small>
+        </div>
+        <div class="services-box">
+          <p>Autobusi i Dritherimav 2</p>
+          <small>Pershkrim i shkurter:
+            Mos u ankoni qe jeni te trembur,sepse ky eshte nje liber qe te tremb , qe te ben te hidhesh perpjete shume here.Jemi ne te njejtin autobus dritherimash, qe ndoshta e njihni,qe tashme eshte rrenuar dhe bllokuar ne varrezen e makinave.Jashte bie shi dhe kater femije qe kane gjetur strehe aty,befas degjojme nje ze te mbinatyrshem qe tregon ngjarje rrenqethese,ndersa jashte ulerojne ujqerite.Por, e keqja vjen me pas , sepse autobusi vihet ne levizje per nje eksurzion horrori me nje skelet ne timon</small>
+        </div>
+      </div>
+      <div class="lateswork">
+        <div class="lateswork-btn">Ardhjet e reja</div>
+        <div class="lateswork-box-img">
+          <div class="lateswork-img1"></div>
+          <div class="lateswork-img2"></div>
+          <div class="lateswork-img3"></div>
+          <div class="lateswork-img4"></div>
+          <div class="lateswork-img5"></div>
+          <div class="lateswork-img6"></div>
+        </div>
+      </div>
+           
     <div id="div4">Libra horror</div>
     <div id="div1" class="box"><h1 id="h1">horror</h1></div>
     <div id="div2"><pre><h2>Top 3 librat me te lexuar horror te javes:</h2>
@@ -62,9 +236,7 @@
       Me ju
       dhe per ju
       gjithehere.</pre>
-      
-        
-      
+          
   </body>
 </html>
   
