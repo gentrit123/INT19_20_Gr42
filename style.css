@@ -162,4 +162,52 @@ body
 .img-grayscale{
   filter:grayscale(10%);
 }
+.services{
+  width: 80%;
+  margin:auto;
+  height:30rem;
+  padding:4.5rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.services-box{
+  width:20%;
+  height:100%;
+  color:#303030;
+  background:#33E0FF;
+  text-align:center;
+  cursor:pointer;
+}
+.services-box:hover{
+  color:#ffffff;
+  background:#76c38f;
+}
+.services-box-icon{
+  margin-top:2rem;
+  font-size:4rem;
+}
+.services-box p{
+  font-size:2rem;
+  text-transform:uppercase;
+}
+.latestwork{
+  text-align:center;
+  width:80%;
+  margin:auto;
+  height:auto;
+}
+.latestwork-btn{
+  width:25%;
+  margin:auto;
+  border:none;
+  background:#303030;
+  padding:1rem;
+  border-radius:0.5rem;
+  color:#ffffff;
+  text-transform:uppercase;
+  font-size:2rem;
+  font-family:'Georgia', sans-serif;
+}
+  
   
