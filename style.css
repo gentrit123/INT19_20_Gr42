@@ -8,13 +8,13 @@ body{
   background-repeat:repeat;
   
 }
-.content-box{
+.permbajtja{
   width:100%;
   height:100%;
   background-size:cover;
   background-repeat:no-repeat;
 }
-.baner-box{
+.baneri{
   width:100%;
   height:40rem;
   background:#000000;
@@ -30,11 +30,11 @@ body{
   align-items:center;
   color:#ffffff;
 }
-.header-logo p{
+.logoja-header p{
   font-size:2rem;
   margin:0;
 }
-.header-logo small{
+.logoja-header small{
   color:#c3c3c3;
 }
 .header-nav ul{
@@ -61,7 +61,7 @@ body{
   text-decoration:none;
   color:#ffffff;
 }
-.slider-box, .slider-box-left,.slider-box-right{
+.kutia-slider, .majtas-slider,.djathtas-slider{
   width:100%;
   margin:auto;
   display:flex;
@@ -72,17 +72,17 @@ body{
   postion:absolute;
   top:11rem;
 }
-.slider-box-left{
+.majtas-slider{
   left:-100%;
 }
-.slider-box{
+.kutia-slider{
   left:0;
   right:0;
 }
-.slider-box-right{
+.djathtas-slider{
   right:-100%;
 }
-.slider-text{
+.teksti_i_slider{
   width:30%;
   height:auto;
   margin-right:5rem;
@@ -91,10 +91,10 @@ body{
   aling-items:center;
   flex-wrap:wrap;
 }
-.slider-text p{
+.teksti_i_slider p{
   font-size:3rem;
 }
-.slider-text button{
+.teksti_i_slider button{
   width:8rem;
   height:auto;
   margin-top:1rem;
@@ -108,16 +108,16 @@ body{
 .slider-btn-left:hover, .slider-btn-center:hover, .slider-btn-center-fixed:hover, .slider-btn-middle:hover, .slider-btn-right:hover, .slider-btn-right-fixed:hover{
   color:#76c38f;
 }
-.slider-text button:hover{
+.teksti_i_slider button:hover{
   background:#76a28e;
 }
-.slider-box-img{
+.fotoja_e_slider{
   width:20%;
   height:auto;
   padding:0.5rem;
   margin-right:5rem;
 }
-.slider-img1{
+.fotoja1-slider{
   width:23rem;
   height:23rem;
   border:1.5rem solid;
@@ -128,7 +128,7 @@ body{
   background-repeat:no-repeat;
   background-position:center;
 }
-.slider-img2{
+.fotoja2-slider{
   width:23rem;
   height:23rem;
   border:1.5rem solid;
@@ -139,7 +139,7 @@ body{
   background-repeat:no-repeat;
   background-position:center;
 }
-.slider-img3{
+.fotoja3-slider{
   width:23rem;
   height:23rem;
   border:1.5rem solid;
@@ -150,13 +150,13 @@ body{
   background-repeat:no-repeat;
   background-position:center;
 }
-.img-sepia{
+.ngjyra-e-fotos{
   filter:sepia(5%);
 }
-.img-grayscale{
+.ngjyra-e-fotos1{
   filter:grayscale(10%);
 }
-.services{
+.sherbimet{
   
   width: 80%;
   margin: auto;
@@ -166,7 +166,7 @@ body{
   justify-content: space-between;
   align-items: center;
 }
-.services-box{
+.kutia-sherbimeve{
   
   background-image: url(libra.jpg);
   width: 20%;
@@ -176,25 +176,25 @@ body{
   text-align: center;
   cursor: pointer;
 }
-.services-box:hover{
+.kutia-sherbimeve:hover{
   color: #ffffff;
   background: #76c38f;
 }
-.services-box-icon{
+.ikona-sherbimeve{
   margin-top: 2rem;
   font-size: 4rem;
 }
-.services-box p{
+.kutia-sherbimeve p{
   font-size: 2rem;
   text-transform: uppercase;
 }
-.latestwork{
+.ardhjetReja{
   text-align:center;
   width: 80%;
   margin: auto;
   height: auto;
 }
-.latestwork-btn{
+.butoni-ardhjetReja{
   width: 25%;
   margin: auto;
   border: none;
@@ -206,7 +206,7 @@ body{
   font-size: 2rem;
   font-family: 'Georgia', sans-serif;
 }
-.latestwork-btn::before, .latestwork-btn::after{
+.butoni-ardhjetReja::before, .butoni-ardhjetReja::after{
   content: '';
   position: absolute;
   width: 26%;
@@ -214,13 +214,13 @@ body{
   top: 71.75rem;
   border-bottom: 0.25rem solid #303030;
 }
-.latestwork-btn::before{
+.butoni-ardhjetReja::before{
   left: 14.25rem;
 }
-.latestwork-btn::after{
+.butoni-ardhjetReja::after{
   right: 14.25rem;
 }
-.latestwork-box-img{
+.fotoja-ardhjetReja{
   width: 100%;
   margin: auto;
   height: auto;
@@ -230,7 +230,7 @@ body{
   align-items: center;
   flex-wrap: wrap;
 }
-.latestwork-img1{
+.fotoja1-ardhjetReja{
   width: 20rem;
   height: 13rem;
   border: 0.5rem solid #ffffff;
@@ -240,7 +240,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat; 
 }
-.latestwork-img2{
+.fotoja2-ardhjetReja{
   width:20rem;
   height:13rem;
   border:0.5rem solid #ffffff;
@@ -250,7 +250,7 @@ body{
   background-size:cover;
   background-repeat:no-repeat;
 }
-.latestwork-img3{
+.fotoja3-ardhjetReja{
   width:20rem;
   height:13rem;
   border:0.5rem solid #ffffff;
@@ -260,7 +260,7 @@ body{
   background-size:cover;
   background-repeat:no-repeat;
 }
-.latestwork-img4{
+.fotoja4-ardhjetReja{
     width: 20rem;
     height: 13rem;
     border: 0.5rem solid #ffffff;
@@ -270,7 +270,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     }
-.latestwork-img5{
+.fotoja5-ardhjetReja{
     width: 20rem;
     height: 13rem;
     border: 0.5rem solid #ffffff;
@@ -281,7 +281,7 @@ body{
     background-repeat: no-repeat;
     
 }
-.latestwork-img6{
+.fotoja6-ardhjetReja{
     width: 20rem;
     height: 13rem;
     border: 0.5rem solid #ffffff;
@@ -292,11 +292,11 @@ body{
     background-repeat: no-repeat;
     
 }
-.latestwork-img:hover{
+.foto-ardhjetReja:hover{
     border-color: #76c38f;
     filter: grayscale(0);
 }
-.footer-box{
+.kutia-footer{
     width: 100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.7);
@@ -312,33 +312,33 @@ body{
     align-items: center;
     color: #d4d4d4;
 }
-.footer-inside-box{
+.brenda-kutise-se-footer{
     width: 20%;
     height: 20rem;
     margin-top: 3rem;
 }
-.footer-inside-box h4{
+.brenda-kutise-se-footer h4{
     color: #ffffff;
     font-weight: normal;
 }
-.footer-inside-box a{
+.brenda-kutise-se-footer a{
     text-decoration: none;
     color: #76c38f;
 }
-.footer-inside-box a:hover{
+.brenda-kutise-se-footer a:hover{
     color: #76a28e;
 }
-.footer-inside-box ul{
+.brenda-kutise-se-footer ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
-.footer-inside-box ul li{
+.brenda-kutise-se-footer ul li{
     margin-bottom: 0.75rem;
     padding: 0.1rem;
 }
 
-.footer-inside-box form input{
+.brenda-kutise-se-footer form input{
     width: 100%;
     height: auto;
     padding: 0.5rem;
@@ -348,7 +348,7 @@ body{
     border-radius: 0.5rem;
     background-color: rgba(0, 0, 0, 0.7);
 }
-.footer-inside-box form button{
+.brenda-kutise-se-footer form button{
     width: 5rem;
     height: auto;
     margin-top: 1rem;
@@ -362,7 +362,7 @@ body{
     font-weight: bold;
     font-family: 'Georgia', sans-serif;
 }
-.footer-inside-box form button:hover{
+.brenda-kutise-se-footer form button:hover{
     background: #76a28e;
 }
 
