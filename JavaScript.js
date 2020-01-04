@@ -13,7 +13,7 @@
     $(this).append($imgtext);
   });
   $('.slider-btn-center').click(function(){
-    $('.slider-box-left').animate({left:-100%'});
+    $('.slider-box-left').animate({left:'-100%'});
      $('.slider-box').animate({right:'0'});
   });
   $('.slider-btn-center-fixed').click(function(){
@@ -35,7 +35,7 @@
   });
   $('.slider-btn-middle').click(function(){
     $('.slider-box').animate({left:'0%'});
-    $('.slider-box-right').animate({right:'-100%});
+    $('.slider-box-right').animate({right:'-100%'});
                                    });
   
     </script>
