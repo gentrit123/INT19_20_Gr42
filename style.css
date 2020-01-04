@@ -397,6 +397,40 @@ $(document).ready(function(){
     $('.slider-box').animate({right:'-200%'});
     $('.slider-box-left').animate({left:'0'});
   });
+  $('.slider-btn-right').click(function(){
+    $('.slider-box').animate({left:'-200%'});
+    $('.slider-box-right').animate({right:'0'});
+  });
+  //mobile fixed
+  $('.slider-btn-right-fixed').click(function(){
+    $('.slider-box').animate({left:'-200%'});
+    $('.slider-box-right').animate({right:'0'});
+  });
+  // right slide button
+  $('.slider-btn-middle').click(function(){
+    $('.slider-box').animate({left:'0%'});
+    $('.slider-box-right').animate({right:'-100%'});
+  });
+});
+</script>
+</head>
+<body>
+<div class="content-box">
+<div class="baner-box">
+<div class="header">
+<div class="header-logo">
+<p>Biblioteka Dituria</p>
+</div>
+<div class="header-nav">
+<ul>
+<li><a href="#">Kryefaqja</a></li>
+<li><a href="#">Horror</a></li>
+<li><a href="#">Mister</a></li>
+<li><a href="#">Libra Shkencor</a></li>
+<li><a href="#">Romance</a></li>
+</ul>
+</div>
+</div>
   
 
 
