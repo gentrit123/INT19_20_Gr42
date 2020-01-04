@@ -1,3 +1,6 @@
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="jquery.scrollTo.min.js"></script>
+
 <script>
   $(document).ready(function(){
   $imgtext = $("<p>lorem ipsum dolar</p>");
