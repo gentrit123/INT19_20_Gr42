@@ -1,3 +1,8 @@
+{
+
+box-sizing: border-box;
+
+}
 body
 {
   margin:0;
@@ -145,13 +150,35 @@ body
   padding:0.5rem;
   margin-right:5rem;
 }
-.slider-img{
+.slider-img1{
   width:23rem;
   height:23rem;
   border:1.5rem solid;
   border-color:rgba(0,0,0,0.8);
   border-radius:12rem;
   background-image:url(potter1.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.slider-img2{
+  width:23rem;
+  height:23rem;
+  border:1.5rem solid;
+  border-color:rgba(0,0,0,0.8);
+  border-radius:12rem;
+  background-image:url(#);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.slider-img3{
+  width:23rem;
+  height:23rem;
+  border:1.5rem solid;
+  border-color:rgba(0,0,0,0.8);
+  border-radius:12rem;
+  background-image:url(#);
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center;
