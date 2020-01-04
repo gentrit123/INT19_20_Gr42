@@ -21,7 +21,7 @@
     $('.slider-box').animate({right:'0'});
   });
   $('.slider-btn-left').click(function(){
-    $('.slider-box').animate({right:'-200%']);
+    $('.slider-box').animate({right:'-200%'});
      $('.slider-box-left').animate({left:'0'});
   });
   
@@ -37,6 +37,7 @@
     $('.slider-box').animate({left:'0%'});
     $('.slider-box-right').animate({right:'-100%'});
                                    });
+});
   
     </script>
                     
