@@ -329,6 +329,58 @@ body
 .footer-inside-box a:hover{
   color:#76a28e;
 }
+.footer-inside-box ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+.footer-inside-box ul li{
+  margin-bottom:0.75rem;
+  padding:0.1rem;
+}
+.footer-inside-box form input{
+  width:100%;
+  height:auto;
+  padding:0.5rem;
+  color:#c3c3c3;
+  margin-bottom:0.5rem;
+  border-color:#303030;
+  border-radius:0.5rem;
+  background-color:rgba(0, 0, 0, 0.7);
+}
+.footer-inside-box form button{
+  width:5rem;
+  height:auto;
+  margin-top:1rem;
+  border:none;
+  padding:0.5rem;
+  border-radius:0.5rem;
+  background:#76c38f;
+  color:#000000;
+  cursor:pointer;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-family:'Georgia',sans-serif;
+}
+.footer-inside-box form button:hover{
+  background: #76a28e;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="jquery.scrollTo.min.js"></script>
+<script>
+$(document).ready(function(){
+  $imgtext=$("<p>lorem ipsum dolar</p>");
+  $imgtext.css({
+    'background' : '#000000',
+    'color' : '#ffffff',
+    'margin-top' : '9.9em',
+    'padding' : '0.5rem',
+    'text-transform' : 'uppercase',
+    'opacity' : '0.5'
+  });
+  
+
 
 
   
