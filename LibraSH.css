@@ -13,7 +13,7 @@ body {
   background-repeat: repeat;
 
 }
-.content-box {
+#content-box {
 
   width: 100%;
   height: 100%;
@@ -28,7 +28,7 @@ body {
   background-color: #001f3f;
   
 }
-.header {
+#header {
   width: 95%;
   margin: auto;
   height: 5rem;
@@ -83,7 +83,7 @@ body {
   color: #111111;
 
 }
-.slider {
+#slider {
   width: 100%;
   margin: auto;
   height: 30rem;
