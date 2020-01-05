@@ -14,6 +14,8 @@
     </style>
   </head>
   <body>
+    <p> Per zbulimin e gabimeve perdoret <b>kapja</b> per shfaqjen e gabimeve.</p>
+    <p id="gabim"></p>
     <script>
       var loje;
       var kontekst;
@@ -130,6 +132,11 @@
                  kontekst.fillStyle = c;
                  kontekst.font = fnt;
                  kontekst.fillText(txt, x, y);
+        }
+        try {
+        }
+        catch(err){
+          document.getElementById("gabim").innerHTML = err.massage;
         }
     </script>
   </body>
