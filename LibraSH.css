@@ -146,6 +146,22 @@ font-size: 3rem;
   font-family: 'Georgia', sans-serif;
   
 }
+.slider-btn-left, .slider-btn-center, .slider-btn-center-fixed, .slider-btn-middle, .slider-btn-right{
+width: auto;
+  height: auto;
+  border: none;
+  margin: 5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: none;
+  font-weight: bold;
+  font-size: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Georgia', sans-serif;
+
+
+}
 .slider-btn-center-fixed {
   visibility: hidden;
 
