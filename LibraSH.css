@@ -489,6 +489,11 @@ width: 5rem;
   font-weight: bold;
   font-family: 'Georgia', sans-serif;
 }
+#libraria {
+
+background-image: url(imazh.jpg);
+
+}
 .footer-inside-box form button:hover {
 
 background: #76a28e;
