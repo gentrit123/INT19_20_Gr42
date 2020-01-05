@@ -15,29 +15,36 @@
   $('.latestwork-img').hover(function(){
     $(this).append($imgtext);
   });
+  
   $('.slider-btn-center').click(function(){
     $('.slider-box-left').animate({left: '-100%'});
     $('.slider-box').animate({right:'0'});
   });
+  
   $('.slider-btn-center-fixed').click(function(){
     $('.slider-box-left').animate({left: '-100%'});
     $('.slider-box').animate({right:'0'});
   });
+  
   $('.slider-btn-left').click(function(){
     $('.slider-box').animate({right:'-200%'});
     $('.slider-box-left').animate({left: '0'});
   });
+  
   $('.slider-btn-right').click(function(){
     $('.slider-box').animate({left: '-200%'});
     $('.slider-box-right').animate({right: '0'});
   }):
+  
   $('.slider-btn-right-fixed').click(function(){
-    $('.slider-box').animate({left: '200%'});
+    $('.slider-box').animate({left: '-200%'});
     $('.slider-box-right').animate({right: '0'});
   });
+  
   $('.slider-btn-middle').click(function(){
     $('.slider-box').animate({left: '0%'});
     $('.slider-box-right').animate({right: '-100%'});
   });
+});
   
   </script>
