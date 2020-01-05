@@ -433,6 +433,75 @@
         font-weight:bold;
         color:#009879;
       }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></scripts>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $imgtext = $("<p>lorem ipsum dolar</p>");
+        $imgtext.css({
+          'background' : '#000000',
+          'color' : '#ffffff',
+          'margin-top' : '9.9em',
+          'padding' : '0.5rem',
+          'text-transform' : 'uppercase',
+          'opacity' : '0.5'
+        });
+        $('.latestwork-img').hover(function(){
+          $(this).append($imgtext);
+        });
+        // left slide button
+        $('.slider-btn-center').click(function(){
+          $('.slider-box-left').animate({left:'-100%'});
+          $('.slider-box').animate({right:'0'});
+        });
+        // left slide button mobile
+        $('.slider-btn-center-fixed').click(function(){
+          $('.slider-box-left').animate({left:'-100%'});
+          $('.slider-box').animate({right:'0'});
+        });
+        // center slide button
+        $('.slider-btn-left').click(function(){
+          $('.slider-box').animate({right:'-200%'});
+          $('.slider-box-left').animate({left:'0'});
+        });
+        $('.slider-btn-right').click(function(){
+          $('.slider-box').animate({left:'-200%'});
+          $('.slider-box-right').animate({right:'0'});
+        });
+        //mobile fixed
+        $('.slider-btn-right-fixed').click(function(){
+          $('.slider-box').animate({left:'-200%'});
+          $('.slider-box-right').animate({right:'0'});
+        });
+        // right slide button
+        $('.slider-btn-middle').click(function(){
+          $('.slider-box').animate({left:'0%'});
+          $('.slider-box-right').animate({right:'-100%'});
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="content-box">
+      <div class="baner-box">
+        <div class="header">
+          <div class="header-logo">
+            <h1>Biblioteka Dituria</h1>
+          </div>
+          <div class="header-nav">
+            <ul>
+              <li><a href="#"><i>Kryefaqja</i></a></li>
+              <li><a href="#"><i>Horror</a></i></li>
+              <li><a href="#"><i>Mister</a></i></li>
+              <li><a href="#"><i>Libra Shkencor</i></a></li>
+              <li><a href="#"><i>Romance</i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="slider-box-left">
+            <div class="slider-btn-center-fixed">&gt;</div>
         
 
         
