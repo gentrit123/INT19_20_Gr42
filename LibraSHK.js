@@ -4,7 +4,7 @@
         <script src="jquery.scrollTo.min.js"></script>
         <script>
         $(document).ready(function(){
-            $imgtext = $("<p>lorem ipsum dolar</p>");
+            $imgtext = $("<p>Fisi</p>");
             $imgtext.css({
                'background' : '#000000',
                'color' : '#ffffff',
