@@ -3,7 +3,7 @@
 <script>
   
   $(document).ready(function(){
-  $imgtext = $("<p> Pa rendesishme </p>");
+  $imgtext = $("<p> lorem ipsum dolar </p>");
   $imgtext.css ({
     'background': '#000000',
     'color': '#ffffff',
