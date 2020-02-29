@@ -1,50 +1,61 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Lexuesi</title>
-    <style>
-      body{
-        background-color:#444444;
-      }
-      .paragrafi{
-        width:30%;
-        margin-right:5rem;
-        margin-left:5rem;
-        display-content:center;
-        align-items:center;
-        flex-wrap:wrap;
-        font-size:3rem;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="paragrafi">
-      <h2>Lexuesi i javes</h2>
-      <br>
-      <p>Lexuesi i kesaj jave eshte: Agron Dika</p>
-    </div>
-    <script>
-      var i=0;
-       var images=[];
-      var time=3000;
-      
-      images[0]='img4.jpg';
-      images[1]='img5.jpg';
-      images[2]='img3.jpg';
-      
-      function ndryshofoton(){
-        document.slide.src=images[i];
-        if(i<imges.length-1){
-          i++;
-          
-        }
-        else{
-          i=0;
-        }
-        setTimeout("ndryshofoton()",time);
-      }
-      window.onlad=ndryshofoton;
-    </script>
-    <img name="slide" width="1650" height="600">
-  </body>
+<head>
+  <title></title>
+  <style >
+    body{
+      background-color:#444444;
+
+    }
+    .paragrafi{
+
+       width: 30%;
+
+    height: auto;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="paragrafi">
+
+  <h2>Lexuesi i javes</h2>
+<br>
+  <p>Lexuesi i kesaj jave eshte: Agron Dika</p>
+</div>
+
+<script >
+  var i=0;
+  var images =[];
+  var time=3000;
+
+  images[0]='img4.jpg';
+  images[1]='img5.jpg';
+  images[2]='img3.jpg';
+
+  function ndryshofoton() {
+    document.slide.src=images[i];
+    if(i<images.length-1){
+      i++;
+
+
+    }else{
+      i=0;
+    }
+    setTimeout("ndryshofoton()",time);
+  }
+  window.onload=ndryshofoton;
+</script>
+
+<img name="slide" width="1650" height="600">
+</body>
 </html>
+
