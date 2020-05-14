@@ -754,7 +754,19 @@
       ndiqni.
       Me ju
       dhe per ju
-      gjithehere.</pre>
+      gjithehere.
+      <?php
+    
+    $from = "gentrit.mahmuti@student.uni-pr.edu";
+    $to = "gentrit.mahmuti12@gmail.com";
+    $subject = "PHP email";
+    $message = "Dikush vizitoi faqen tende.";
+    $headers = "From:Gentrit" . $from;
+    mail($to,$subject,$message, $headers);
+    echo "Emaili u dergua.";
+ 
+?>
+</pre>
       
       
           
