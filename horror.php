@@ -179,3 +179,115 @@
         text-decoration:none;
         color:#ffffff;
       }
+      .slider
+      {
+        width:100%;
+        margin:auto;
+        height:30rem;
+        padding:3rem;
+        color:#ffffff;
+        
+        
+        
+      }
+      .slider-box, .slider-box-left, .slider-box-right
+      {
+        width:100%;
+        margin:auto;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        padding:1rem;
+        position:absolute;
+        top:11rem;
+      }
+      .slider-box-left
+      {
+        left:-100%;
+      }
+      .slider-box
+      {
+        left:0;
+        right:0;
+      }
+      .slider-box-right
+      {
+        right:-100%;
+      }
+      .slider-text
+      {
+        width:30%;
+        height:auto;
+        margin-right:5rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        
+      }
+      .slider-text p
+      {
+        font-size:3rem;
+      }
+      .slider-text bottom
+      {
+        width:8rem;
+        height:auto;
+        margin-top:1rem;
+        border:none;
+        padding:0.5rem;
+        border-radius:0.5rem;
+        background:#76c38f;
+        color:#ffffff;
+        cursor:pointer;
+        font-family:'Georgia',sans-serif;
+        
+      }
+      .slider-btn-left, .slider-btn-center, .slider-btn-center-fixed, .sider-btn-middle, .slider-btn-right
+      {
+        width:auto;
+        height:auto;
+        border:none;
+        margin:5rem;
+        padding:0.5rem;
+        border-radius:0.5rem;
+        background:none;
+        font-weight:bold;
+        font-size:2rem;
+        color:#ffffff;
+        cursor:pointer;
+        font-family:'Georgia', sans-serif;
+        
+        
+        
+      }
+      .slider-btn-center-fixed
+      {
+        vesibility:hidden;
+        
+      }
+      .slider-btn-right-fixed
+      {
+        vesibility:hidden;
+        
+      }
+      .slider-btn-left:hover, .slider-btn-center:hover, .slider-btn-center-fixed:hover, .slider-btn-middle:hover, .slider-btn-right:hover, .slider-btn-right-fixed:hover
+      {
+        color:#76c38f;
+        
+      }
+      .slider-text button:hover
+      {
+        background:#76a28e;
+        
+        
+      }
+      .slider-box-img
+      {
+        width:20%;
+        height:auto;
+        padding:0.5rem;
+        margin-right:5rem;
+        
+      }
