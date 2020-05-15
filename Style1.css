@@ -21,6 +21,13 @@ body
     
   background-color:rgba(8, 8, 8, 0.5);
 }
+.header{
+  width:80%;
+  margin:auto;
+  height:8rem;
+  padding:3rem;
+  display:flex;
+  
 
 
  
