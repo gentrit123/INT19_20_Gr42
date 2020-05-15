@@ -740,70 +740,16 @@
            
     <div id="div4">Libra horror</div>
     <div id="div1" class="box"><h1 id="h1">horror</h1></div>
-    <div id="div2"><pre><h2>  <?php
-    $librat = "Top 3 librat me te lexuar horror te javes:";
-    $len = strlen($librat);
-    $subs = substr($librat, 0,$len-10);
-    echo $subs;
-     ?>
-     </h2>
-   
-    <?php
-    $f = fopen("libratmetelexuar.txt", 'r');
-    while($line = fgets($f))
-    {
-      echo "<h3> $line </h3><br>";
-    }
-    fclose($f);
-    
-
-
-   ?></pre>
-      <div id="div3"><h2><?php
-     $sygjerimi = "Libri i sygjeruar per ju:";
-     $sygj = rtrim($sygjerimi,"ju:");
-     $re = str_replace("per", ":", $sygj);
-     echo $re;
-
-    ?></h2>
+      <div id="div2"><pre><h2>Librat me te lexuar</h2>
+      <h3>1."The Twelfth Department" - William Ryan.</h3>
+      <h3>2."Imaginary Friends" - Stephen Chebosky.</h3>
+      <h3>3."Zombies" - Jackson Chase.<h3></pre>
+      <div id="div3"><h2>Libri i sygjeruar:</h2>
         <h1>"IT"  </h1>
         <h3>by STEPHAN KING </h3>
-       <?php
-                $nrlibrave  = ["Horror" => 650, "Romance" =>552,"Komedi"=>544,"Mister"=>222];
-
-                $librath= $nrlibrave["Horror"];
-                echo "<H3>Numri momental i librave horror ne stock:<H3>";
-                try{
-                if($librath<0)
-                {
-                    throw new Exception();
-
-                }
-                else{
-                    echo "<h1>$librath</h1>";
-                }
-                }
-                catch(Exception $ex)
-                {
-                    echo "<h3>Gabim ne vlere tek : </h3>".$ex; 
-                }
-                finally{
-                    echo "<h2>Lexim te kendshem</h2>";
-                }
+       
                
-        $f = "librisygjeruar.txt";
-        $file = fopen($f, 'w');
-        if($file == false)
-        {
-          echo "ERROR - GABIM";
-          exit();
-        }
-        
-
-        fwrite($file, " \"IT\"-by STEPHAN KING");
-        fclose($file);
-
-        ?>
+   
       </div>
       <pre id="div5">#
       Ju duam.
@@ -813,17 +759,7 @@
       Me ju
       dhe per ju
       gjithehere.
-      <?php
-    
-    $from = "gentrit.mahmuti@student.uni-pr.edu";
-    $to = "gentrit.mahmuti12@gmail.com";
-    $subject = "PHP email";
-    $message = "Dikush vizitoi faqen tende.";
-    $headers = "From:Gentrit" . $from;
-    mail($to,$subject,$message, $headers);
-    echo "Emaili u dergua.";
- 
-?>
+
 </pre>
       
       
