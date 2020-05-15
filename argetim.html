@@ -1,1 +1,154 @@
-  
+  <html>
+	<head>
+		<title>Argetim</title>
+		<canvas id="loje" width="1650" height="700"  al></canvas>
+		<style >
+			body{
+
+				background: linear-gradient(to left, #8942a8, #ba382f);
+				width: 100%;
+				height: 100%
+				top :0;
+				left: 0;
+				overflow: hidden;
+			}
+		</style>
+	
+	</head>
+	<body>
+        <p>Per zbulimin e gabimeve perdoret <b>kapja</b> per shfaqjen e gabimeve.</p>
+
+<p id="gabim"></p>
+
+
+		<script >
+			var loje;
+var kontekst;
+var katrorX;
+var katrorY;
+var katrorS = 50;
+var katrorXS = 5;
+var lojtariX;
+var lojtariY;
+var fik;
+var mausX;
+var mausY;
+var piket = 0;
+var lojtariS = 20;
+var levizX = 0;
+var levizY = 0;
+var mbaroi = false;
+window.onload = function() {
+	loje = document.getElementById('loje')
+	document.addEventListener('mausdown', shtypniButonin, false);
+	kontekst = loje.getContext('2d')
+	katrorX = loje.width/2 - katrorS/2;
+	katrorY = 200 - katrorS/2;
+	lojtariX = loje.width/2 - lojtariS/2;
+	lojtariY = 400 - lojtariS/2;
+	document.onkeydown = celsakontrolli;
+	document.onkeyup = 
+		function() {levizY = 0; levizX = 0;}
+	fik = 60;
+	setInterval(function() {
+		fresko();
+		barazim();
+	}, 1000/fik);
+}
+function barazim() {
+	kordinatat(0, 0, loje.width, loje.height, 'blue');
+	kordinatat(0, 150, loje.width, 100, 'orange');
+	kordinatat(katrorX, katrorY, katrorS * 2, katrorS, 'white');
+	kordinatat(lojtariX, lojtariY, lojtariS, lojtariS, 'black');
+	tekst('Piket: ' + Math.floor(piket), '30px Exo', 10, 30, 'white');
+	if (mbaroi) {
+		kordinatat(0, 0, loje.width, loje.height, 'blue');
+		tekst('LOJA MBAROI', '75px Exo', 200, 300, 'white');
+		kordinatat(250, 350, 100, 50, 'darkgreen');
+	}
+}
+function shtypniButonin(e) {
+	pos = merrnipostmiun(loje, e);
+	mausX = pos.x;
+	mausY = pos.y;
+	if (mausX > 250 && mausX < 350 && mausY > 350 && mausY < 400) {
+		mbaroi = false
+		lojtariX = loje.width/2 - lojtariS/2;
+		lojtariY = 400 - lojtariS/2;
+		piket = 0;
+	}
+}
+function fresko() {
+	lojtariCol = {x: lojtariX, y: lojtariY, w: lojtariS, h: lojtariS}
+	rectCol = {x: katrorX, y: katrorY, w: katrorS * 2, h: katrorS}
+	var col = bejkolon(lojtariCol, rectCol);
+	if (col) {
+		mbaroi = true;
+	}
+	katrorX += katrorXS;
+	lojtariX += levizX;
+	lojtariY += levizY;
+	piket += 1/fik;
+	if (katrorX > loje.width) {
+		katrorX = -katrorS * 2;
+	}
+	if (lojtariX + lojtariS > loje.width || lojtariX < 0 || lojtariY + lojtariS > loje.height || lojtariY < 0) {
+		mbaroi = true;
+	}
+}
+
+function kordinatat(x, y, w, h, c) {
+	kontekst.fillStyle = c;
+	kontekst.fillRect(x, y, w, h);
+}
+function merrnipostmiun(loje, evt) {
+    var kordinatat = loje.getBoundingClientRect();
+    return {
+      x: evt.clientX - kordinatat.left,
+      y: evt.clientY - kordinatat.top
+    };
+}
+function celsakontrolli(e) {
+	
+	if (e.keyCode === 37) {
+		levizX = -5;
+		levizY = 0;
+	} else if (e.keyCode === 38) {
+		levizY = -5;
+		levizX = 0;
+	} else if (e.keyCode === 39) {
+		levizX = 5;
+		levizY = 0;
+	} else if (e.keyCode === 40) {
+		levizY = 5;
+		levizX = 0;
+	}
+}
+function bejkolon(a, b) {
+	if (a.x < b.x + b.w &&
+   	a.x + a.w > b.x &&
+   	a.y < b.y + b.h &&
+   	a.h + a.y > b.y) {
+    	return true;
+	} else {
+		return false;
+	}
+}
+function tekst(txt, fnt, x, y, c) {
+	kontekst.fillStyle = c;
+	kontekst.font = fnt;
+	kontekst.fillText(txt, x, y);
+}
+
+                  try {
+
+                  	
+           
+}
+catch(err) {
+  document.getElementById("gabim").innerHTML = err.message;
+}
+		</script>
+	</body>
+</html>
+
