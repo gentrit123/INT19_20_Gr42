@@ -643,4 +643,215 @@
   </script>
         
   </head>
+  <body>
+    <div class="content-box">
+      <div class="baner-box">
+        <div class="header">
+          <div class="header-logo">
+            <p>Biblioteka Dituria</p>
+          </div>
+          <div class="header-nav">
+            <ul>
+              <li><a href="project.html">Kryefaqja</a></li>
+              <li><a href="horror.html">Horror</a></li>
+              <li><a href="mister.html">Mister</a></li>
+              <li><a href="LibraShkencor.html">Shkence</a></li>
+              <li><a href="Romance.html">Romance</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="slider">
+          <div class="slider-box-left">
+            <div class="slider-btn-center-fixed">&gt;</div>
+            <div class="slider-text">
+              <p>Origjina</p>
+              <small>Pershkrim i shkurter
+                Kushdo te jeni:Qfaredo te besoni:Gjithqka eshte gati te ndryshoj.Origjina eshte jashtzakonisht krijues-romani me i shkelqyer she me zbavites i Dan Brown-it deri me sot.Per me shume,ju ftojme te lexoni review e Ron Charles,editor i "Book World",rreth romanit Origjina ,botuar ne gazeten amerikane.</small>
+              <button type="button">Lexo me shume <span>&raquo;</span></button>
+            </div>
+            <div class="slider-box-img">
+              <div class="slider-img1 img-sepia"></div>
+            </div>
+            <div class="slider-btn-center">&gt;</div>
+          </div>
+          <div class="slider-box">
+            <div class="slider-btn-left">&lt;</div>
+            <div class="slider-text">
+              <p>Femijet e Hansenit</p>
+              <small>Pershkrim i shkurter
+                "Femijet e Hansenit" te Ognjen Spahic - fitues i qmimit europian te te letersise ,2014 - permes metafores brilante komunize-leber,autori sjell me elegance ,por pa meshire , pamjet e nje bote qe lexuesi i ka ndeshur me permysjen e regimeve totalitariste,friken per te thene deri ne fund te verteten , trishtimin, humorin,dhe horrorin ne kohe krizash.Eshte fundi i viteve 1980.Europa eshte gati te ndryshoje pergjithmone.</small>
+              <button type="button">Lexo me shume<span>&raquo;</span></button>
+            </div>
+            <div class="slider-box-img">
+              <div class="slider-img2"></div>
+            </div>
+            <div class="slider-btn-right-fixed">&gt;</div>
+            <div class="slider-btn-right">&gt;</div>
+          </div>
+          <div class="slider-box-right">
+            <div class="slider-btn-middle">&lt;</div>
+            <div class="slider-text">
+              <p>Femijet i peste </p>
+              <small>Pershkrim i shkurter:
+                Femija i peste ka intensitetin e tmerrit...E lexon dhe dridhesh.Independent "Doris Lessing mund te marre qfaredo gjinie-ne kete rast ,si nje ngjarje horror - e rivendos ate ne menyre briliante.Femija i peste eshte dramatik she i paharrueshem ,duke u luajtur si te qe nje prej frikave me te hershme."Guardian<span>&raquo;</span></button>
+            </div>
+            <div class="slider-box-img">
+              <div class="slider-img3 img-grayscale"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services">
+        <div class="services-box">
+          <p>Ne kopshtin e egersirave</p>
+          <small style = "font-size: 20px";>
+            <?php
+                function pershkrimi(){
+                $array = array("Përshkrim " ,"i " , " shkurtër");
+                $var = implode("", $array);
+                echo $var."<br>";
+                }
+                pershkrimi();
+
+                ?>
+            Nje veper verbuese dhe joshese qe flet me volume te tere rreth faktit se perse bota nuk e njohu rrezikun e kobshem te pozuar nga Hitleri derisa Berlini dhe e gjithe europa ,ishin mbytur ne gjak dhe terror.</small>
+        </div>
+        <div class="services-box">
+          <p>Weekend i mallkuar ne Bruksel</p>
+          <small style = "font-size: 20px" ; ><?php
+                pershkrimi();
+                ?>
+            Ky roman , here autobiografik,here horror,dhe here-here satirik,na ofron boten e njerezve qe na gatuajne permes lajmeve dhe fatin e nje shoqerie qe filtrohet permes tyre.</small>
+        </div>
+        <div class="services-box">
+          <p>Ne kerkim te kemishes se humbur</p>
+          <small style = "font-size: 20px";><?php
+                pershkrimi();
+                ?>
+            "Ne kerkim te kemishes se humbur" eshte nje liber me 10 ese te shkruara plot elegance ,force dhe imagjinate mbi Shqiperine - "vendin e quditshem" qe, me shume se sa realitetin socialist , metoj te krijonte nje mitologji te fshehur pas Perdes se Hekurt.</small>
+        </div>
+        <div class="services-box">
+          <p>Autobusi i Dritherimav 2</p>
+          <small  style = "font-size: 20px";><?php
+                pershkrimi();
+                ?>
+            Mos u ankoni qe jeni te trembur,sepse ky eshte nje liber qe te tremb , qe te ben te hidhesh perpjete shume here.Jemi ne te njejtin autobus dritherimash, qe ndoshta e njihni,qe tashme eshte rrenuar dhe bllokuar ne varrezen e makinave.</small>
+        </div>
+      </div>
+      <div class="latestwork">
+        <div class="latestwork-btn">Ardhjet e reja</div>
+        <div class="latestwork-box-img">
+          <div class="latestwork-img1"></div>
+          <div class="latestwork-img2"></div>
+          <div class="latestwork-img3"></div>
+          <div class="latestwork-img4"></div>
+          <div class="latestwork-img5"></div>
+          <div class="latestwork-img6"></div>
+        </div>
+      </div>
+           
+    <div id="div4"> <?php
+        $tekst = "Libra:horror";
+        $varg = explode(":", $tekst);
+        echo $varg[0]." ".$varg[1];
         
+
+
+        ?></div>
+    <div id="div1" class="box"><h1 id="h1">horror</h1></div>
+    <div id="div2"><pre><h2>
+       <?php
+    $librat = "Top 3 librat me te lexuar horror te javes:";
+    $len = strlen($librat);
+    $subs = substr($librat, 0,$len-10);
+    echo $subs;
+     ?>
+     </h2>
+   
+    <?php
+    $f = fopen("libratmetelexuar.txt", 'r');
+    while($line = fgets($f))
+    {
+      echo "<h3> $line </h3><br>";
+    }
+    fclose($f);
+    
+
+
+   ?>
+    </pre>
+      <div id="div3"><h2><?php
+     $sygjerimi = "Libri i sygjeruar per ju:";
+     $sygj = rtrim($sygjerimi,"ju:");
+     $re = str_replace("per", ":", $sygj);
+     echo $re;
+
+    ?></h2>
+        <h1>"IT"  </h1>
+        <h3>by STEPHAN KING </h3>
+      <?php
+                $nrlibrave  = ["Horror" => 650, "Romance" =>552,"Komedi"=>544,"Mister"=>222];
+
+                $librath= $nrlibrave["Horror"];
+                echo "<H3>Numri momental i librave horror ne stock:<H3>";
+                try{
+                if($librath<0)
+                {
+                    throw new Exception();
+
+                }
+                else{
+                    echo "<h1>$librath</h1>";
+                }
+                }
+                catch(Exception $ex)
+                {
+                    echo "<h3>Gabim ne vlere tek : </h3>".$ex; 
+                }
+                finally{
+                    echo "<h2>Lexim te kendshem</h2>";
+                }
+               
+        $f = "librisygjeruar.txt";
+        $file = fopen($f, 'w');
+        if($file == false)
+        {
+          echo "ERROR - GABIM";
+          exit();
+        }
+        
+
+        fwrite($file, " \"IT\"-by STEPHAN KING");
+        fclose($file);
+
+        ?
+
+
+              </div>
+      <pre id="div5">
+      
+    #Ju duam.
+    Faleminderit
+    qe na
+    ndiqni.
+    Me ju
+    dhe per ju
+    gjithehere.
+  <?php
+    
+    $from = "gentrit.mahmuti@student.uni-pr.edu";
+    $to = "gentrit.mahmuti12@gmail.com";
+    $subject = "PHP email";
+    $message = "Dikush vizitoi faqen tende.";
+    $headers = "From:Gentrit" . $from;
+    mail($to,$subject,$message, $headers);
+    echo "Emaili u dergua.";
+ 
+?></pre>
+
+
+      
+      
+          
+  </body>
+</html>
