@@ -223,45 +223,69 @@ session_start();
         <div class="footer-box">
             <div class="footer">
                 <div class="footer-inside-box">
-                    <h4> Thenje per ju</h4>
-                    <p>
-                        "Ekzitojne dy dite ne vite qe nuk mund te besh asgje: njera quhet "dje" dhe tjetra "neser".
-                        Prandaj e sotmja eshte nje dite e pershtatshme te duash, te besosh dhe kryesisht te jetosh!"
-                    </p>\
+                    
+                <?php
+                $nrlibrave  = ["AudioBook" => 8];
+
+                $librath= $nrlibrave["AudioBook"];
+                echo "<h3>Numri i AudioBooks ne stock:</h3>";
+                try{
+                if($librath<0)
+                {
+                    throw new Exception();
+
+                }
+                else{
+                    echo "<h1>$librath</h1>";
+                }
+                }
+                catch(Exception $ex)
+                {
+                    echo "<h3>Gabim ne vlere tek : </h3>".$ex; 
+                }
+                finally{
+                    echo "<h2>Ndegjim te kendshem</h2>";
+                }
+?>
+                </div>
+                <div class="footer-inside-box">
+                    
+                <ul>
+          <li> <a href="#"> <span>&raquo; </span style='color: powderblue;'> Dergo ne Fillim te Faqes </a> </li>
+          
+          
+          </ul>
+
+                </div>
+                <div class="footer-inside-box">
+                   
+                <?php
+
+$cmimet = array(5,15,10,30,25,20);
+
+rsort($cmimet);
+
+$gjatesia = count($cmimet);
+echo "<h3>Cmimet e audiobooks nga me i larti: </h3> </br> ";
+
+for($x=0 ; $x<$gjatesia ; $x++){
+	
+echo "$cmimet[$x] €</br>";
+
+}
+
+echo "</br>";
+
+?>
 
 
 
                 </div>
                 <div class="footer-inside-box">
-                    <h4> Link i shpejte</h4>
-                    <ul>
-                        <li> <a href="#"> <span> &raquo; </span> Dergo ne fillim </a> </li>
-                    </ul>
-                </div>
-                <div class="footer-inside-box">
-                    <h4> Komentet nga lexuesit</h4>
-                    <p>
-                        <span class="footer-green"> Albin Mehmeti </span> Faleminderit shume, jeni faqe shume e qelluar, na ndihmoni
-                        shume ne pergjezhjen e librave per te lexuar dhe mbi te gjitha na dhuroni libra falas.
-                    </p>
-                    <p>
-                        <span id="footer-green"> Fiona Ahmeti </span> Vetem vazhdoni pune shumee qelluar, sepse shoqeria jone e "teknologjise"
-                        ka shume nevoje per libra te tille.
-                    </p>
-                </div>
-                <div class="footer-inside-box">
-                    <h4> Kontakti: </h4>
-                    <form>
-                        <input type="text" placeholder="Emri dhe Mbiemri">
-                        <input type="email" placeholder="Email">
-                        <input type="text" placeholder="Subjekti">
-                        <input type="text" placeholder="Mesazhi">
-                        <button type="submit"> Ruaj</button>
-
-                    </form>
+                    
                 </div>
             </div>
-            <P> Na kontaktoni ne email: <a href="mailto:gm@gmail.com"> gm@gmail.com </a> </P>
+           
         </div>
     </div>
     </div>
