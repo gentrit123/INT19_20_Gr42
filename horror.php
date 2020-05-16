@@ -291,3 +291,312 @@
         margin-right:5rem;
         
       }
+      .slider-img1
+      {
+        width: 23rem;
+        height:23rem;
+        border:1.5rem solid;
+        border-color:rgba(0,0,0,0.8);
+        border-radius:12rem;
+        background-image:url(origjina.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+        
+      }
+      .slider-img2
+      {
+        width:23rem;
+        height:23rem;
+        border:1.5rem solid;
+        border-color:rgba(0,0,0,0.8);
+        border-radius:12rem;
+        background-image:url(femijet.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+        
+        
+        
+      }
+      .slider-img3
+      {
+        width:23rem;
+        height:23rem;
+        border:1.5rem solid;
+        border-color:rgba(0,0,0,0.8);
+        border-radius:12rem;
+        background-image:url(femijaipeste.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+        
+        
+      }
+      .img-sepia
+      {
+        filter:sepia(5%);
+        
+      }
+      .img-grayscale
+      {
+        fliter:grayscale(5%);
+        
+      }
+      .services
+      {
+        width:80%;
+        margin:auto;
+        height:30rem;
+        padding:4.5rem;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        
+      }
+      .services-box
+      {
+        width:20%;
+        height:100%;
+        color:#303030;
+        background-image:url(yellowmoon.jpg);
+        text-align:center;
+        cursor:pointer;
+      }
+      .services-box:hover
+      {
+        color:#ffffff;
+        background:#76c38f;
+      }
+      .services-box-icon
+      {
+        margin-top:2rem;
+        font-size:4rem;
+      }
+      .services-box p
+      {
+        font-size:2rem;
+        text-transform:uppercase;
+      }
+      .latestwork
+      {
+        text-align:center;
+        width:80%;
+        margin:auto;
+        height:auto;
+        
+        
+      }
+      .latestwork-btn
+      {
+        width:25%;
+        margin:auto;
+        border:none;
+        background:#303030;
+        padding:1rem;
+        border-radius:0.5rem;
+        color:#ffffff;
+        text-transform:uppercase;
+        font-size:2rem;
+        font-family:'Georgia',sans-serif;
+        
+        
+      }
+      .latestwork-btn::before, .latestwork-btn::after
+      {
+        content: '';
+        position:absolute;
+        width:26%;
+        height:0.25rem;
+        top:71.75rem;
+        border-bottom:0.25rem solid #303030;
+      }
+      .latestwork-btn::before
+      {
+        left:14.25rem;
+      }
+      .latestwork-btn::after
+      {
+        right:14.25rem;
+      }
+      .latestwork-box-img
+      {
+        width:100%;
+        margin:auto;
+        height:auto;
+        padding:2rem;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        flex-wrap:wrap;
+        
+        
+      }
+      .latestwork-img1
+      {
+        width:20rem;
+        height:13rem;
+        border:0.5rem solid #ffffff;
+        margin:1rem;
+        cursor:pointer;
+        background-image:url(if.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        
+        
+        
+      }
+      .latestwork-img2
+      {
+        width:20rem;
+        height:13rem;
+        border:0.5rem solid #ffffff;
+        margin:1rem;
+        cursor:pointer;
+        background-image:url(vices.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        
+      }
+      .latestwork-img3
+      {
+        width:20rem;
+        height:13rem;
+        border:0.5rem solid #ffffff;
+        margin:1rem;
+        cursor:pointer;
+        background-image:url(theghost.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        
+      }
+      .latestwork-img4
+      {
+        width:20rem;
+        height:13rem;
+        border:0.5rem solid #ffffff;
+        margin:1rem;
+        cursor:pointer;
+        background-image:url(zombies.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        
+      }
+      .latestwork-img5
+      {
+        width:20rem;
+        height:13rem;
+        border:0.5rem solid #ffffff;
+        margin:1rem;
+        cursor:pointer;
+        background-image:url(endofworld.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        
+      }
+      .latestwork-img6
+      {
+        width:20rem;
+        height:13rem;
+        border:0.5rem solid #ffffff;
+        margin:1rem;
+        cursor:pointer;
+        background-image:url(theseven.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        
+      }
+      .latestwork-img:hover
+      {
+        border-color:#76c38f;
+        filter:grayscale(0);
+      }
+      .footer.box
+      {
+        width:100%;
+        height:auto;
+        background-color:rgba(0,0,0,0.7);
+        color: #ffffff;
+        
+      }
+      .footer
+      {
+        width:80%;
+        margin:auto;
+        padding:3rem;
+        height:20rem;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        color:#d4d4d4;
+        
+      }
+      .footer-inside-box
+      {
+        width:20%;
+        height:20rem;
+        margin-top:3rem;
+        
+      } 
+      .footer-inside-box h4
+      {
+        color:#ffffff;
+        font-weight:normal;
+        
+      }
+      .footer-inside-box a
+      {
+        text-decoration:none;
+        color:#76c38f;
+        
+      }
+      .footer-inside-box a:hover
+      {
+        color:#76a28e;
+        
+      }
+      .footer-inside-box ul
+      {
+        margin:0;
+        padding:0;
+        list-style-type:none;
+      }
+      .footer-inside-box ul li
+      {
+        margin-bottom:0.75rem;
+        padding:0.1rem;
+      }
+      .footer-inside-box form input
+      {
+        width:100%;
+        height:auto;
+        padding:0.5rem;
+        color:#c3c3c3;
+        margin-bottom:0.5rem;
+        border-color:#303030;
+        border-radius:0.5rem;
+        background-color:rgba(0,0,0,0.7);
+      }
+      .footer-inside-box form button
+      {
+        width:5rem;
+        height:auto;
+        margin-top:1rem;
+        border:none;
+        padding:0.5rem;
+        border-radius:0.5rem;
+        background:#76c38f;
+        color:#000000;
+        cursor:pointer;
+        text-transform:uppercase;
+        font-weight:bold;
+        font-family:'Georgia',sans-serif;
+        
+      }
+      .footer-inside-box form button:hover
+      {
+        background:#76a28e;
+        
+      }
+      
+        
