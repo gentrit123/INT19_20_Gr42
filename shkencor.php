@@ -250,10 +250,10 @@
           </div>
         <div class="footer-inside-box">
         <?php
-                $nrlibrave  = ["Horror" => 650, "Romance" =>552,"Komedi"=>544,"Mister"=>222];
+                $nrlibrave  = ["Horror" => 65, "Romance" =>55,"Komedi"=>54,"Mister"=>22];
 
                 $librath= $nrlibrave["Komedi"];
-                echo "<H3>Numri momental i librave horror ne stock:<H3>";
+                echo "<H3>Numri momental i librave Shkencor ne stock:<H3>";
                 try{
                 if($librath<0)
                 {
