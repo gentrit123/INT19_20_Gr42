@@ -80,6 +80,25 @@ body
   position:absolute;
   top:11rem;
 }
+.slider-box-left{
+  left:-100%;
+}
+.slider-box{
+  left:0;
+  right:0;
+}
+.slider-box-right{
+  right:-100%;
+}
+.slider-text{
+  width:30%;
+  height:auto;
+  margin-right:5rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
   
 
 
