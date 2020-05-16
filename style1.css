@@ -1,0 +1,659 @@
+body
+{
+    width: 100%;
+  margin:0;
+  padding:0;
+  font-family:'Poppins';
+  background: #d4d4d4;
+  overflow-x:hidden;
+  background-color: black;
+  background-repeat:repeat;
+}
+.content-box{
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.baner-box{
+  width:100%;
+  height:40rem;
+  
+  background-color:rgba(8, 8, 8, 0.5);
+}
+.header{
+  width:80%;
+  margin:auto;
+  height:8rem;
+  padding:3rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  color:#ffffff;
+}
+.header-logo p{
+  font-size:2rem;
+  margin:0;
+}
+.header-logo small{
+  color:#c3c3c3;
+}
+.header-nav ul{
+  padding:0;
+  margin:0;
+  list-style-type:none;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.header-nav li{
+  width:auto;
+  height:auto;
+  border-radius:0.5rem;
+  margin:0.5rem;
+  padding:0.5rem;
+  text-align:center;
+  text-transform:uppercase;
+}
+.header-nav li:hover{
+  background: #76c38f;
+}
+.header-nav ul a{
+  text-decoration:none;
+  color:#ffffff;
+}
+.slider{
+  width:100%;
+  margin:auto;
+  height:30rem;
+  padding:3rem;
+  color:#ffffff;
+}
+.slider-box, .slider-box-left, .slider-box-right{
+  width:100%;
+  margin:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  padding:1rem;
+  position:absolute;
+  top:11rem;
+}
+.slider-box-left{
+  left:-100%;
+}
+.slider-box{
+  left:0;
+  right:0;
+}
+.slider-box-right{
+  right:-100%;
+}
+.slider-text{
+  width:30%;
+  height:auto;
+  margin-right:5rem;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.slider-text p{
+  font-size:3rem;
+}
+.slider-text button{
+  width:8rem;
+  height:auto;
+  margin-top:1rem;
+  border:none;
+  padding:0.5rem;
+  border-radius:0.5rem;
+  background:#76c38f;
+  color:#ffffff;
+  cursor:pointer;
+  font-family:'Georgia',sans-serif;
+}
+.slider-btn-left, .slider-btn-center, .slider-btn-center-fixed, .slider-btn-middle, .slider-btn-right{
+  width:auto;
+  height:auto;
+  border:none;
+  margin:5rem;
+  padding:0.5rem;
+  border-radius:0.5rem;
+  background:none;
+  font-weight:bold;
+  font-size:2rem;
+  color:#ffffff;
+  cursor:pointer;
+  font-family:'Georgia',sans-serif;
+}
+.slider-btn-center-fixed{
+  visibility:hidden;
+}
+.slider-btn-right-fixed{
+  visibility:hidden;
+}
+.slider-btn-left:hover, .slider-btn-center:hover, .slider-btn-center-fixed:hover, .slider-btn-middle:hover, .slider-btn-right:hover, .slider-btn-right-fixed:hover{
+  color:#76c28e;
+}
+.slider-text button:hover{
+  background:#76a28e;
+}
+.slider-box-img{
+  width:20%;
+  height:auto;
+  padding:0.5rem;
+  margin-right:5rem;
+}
+.slider-img1{
+  width:23rem;
+  height:23rem;
+  border:1.5rem solid;
+  border-color:#33E0FF;
+  border-radius:12rem;
+  background-image:url(images/potter1.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.slider-img2{
+  width:23rem;
+  height:23rem;
+  border:1.5rem solid;
+  border-color:#33E0FF;
+  border-radius:12rem;
+  background-image:url(images/feynman.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.slider-img3{
+  width:23rem;
+  height:23rem;
+  border:1.5rem solid;
+  border-color:#33E0FF;
+  border-radius:12rem;
+  background-image:url(images/hija-e-gjarpritt.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.slider-img1Sh{
+  width:23rem;
+  height:23rem;
+  border:1.5rem solid;
+  border-color:#33E0FF;
+  border-radius:12rem;
+  background-image:url(images/burri.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.slider-img2Sh{
+  width:23rem;
+  height:23rem;
+  border:1.5rem solid;
+  border-color:#33E0FF;
+  border-radius:12rem;
+  background-image:url(images/selfishGene.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.slider-img3Sh{
+  width:23rem;
+  height:23rem;
+  border:1.5rem solid;
+  border-color:#33E0FF;
+  border-radius:12rem;
+  background-image:url(images/feynman.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+}
+.img-sepia{
+  filter:sepia(5%);
+}
+.img-grayscale{
+  filter:grayscale(10%);
+}
+.services{
+  width: 80%;
+  margin:auto;
+  height:30rem;
+  padding:4.5rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.services-box{
+  width:20%;
+  height:90%;
+  color:#303030;
+  background:#33E0FF;
+  text-align:center;
+  cursor:pointer;
+}
+.services-box:hover{
+  color:#ffffff;
+  background:#76c38f;
+}
+.services-box-icon{
+  margin-top:2rem;
+  font-size:4rem;
+}
+.services-box p{
+  font-size:2rem;
+  text-transform:uppercase;
+}
+.latestwork{
+  text-align:center;
+  width:80%;
+  margin:auto;
+  height:auto;
+}
+.latestwork-btn{
+  width:25%;
+  margin:auto;
+  border:none;
+  background:#303030;
+  padding:1rem;
+  border-radius:0.5rem;
+  color:#ffffff;
+  text-transform:uppercase;
+  font-size:2rem;
+  font-family:'Georgia', sans-serif;
+}
+.latestwork-btn::before, .latestwork-btn::after{
+  content: '';
+  position:absolute;
+  width:26%;
+  height:0.25rem;
+  top:71.75rem;
+  border-bottom:0.25rem solid #303030;
+}
+.latestwork-btn::before{
+  left:14.25rem;
+}
+.latestwork-btn::after{
+  right:14.25rem;
+}
+.latestwork-box-img{
+  width:100%;
+  margin:auto;
+  height:auto;
+  padding:2rem;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.latestwork-img1{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(images/tom.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.latestwork-img2{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(images/parajsa.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.latestwork-img3{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(images/exitwest.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.latestwork-img4{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(images/askush.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.latestwork-img5{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(images/dielli.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.latestwork-img6{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(images/albanet.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.latestwork-img:hover{
+  border-color:#76c38f;
+  filter:grayscale(0);
+}
+.footer-box{
+  width:100%;
+  height:auto;
+  background-color:rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+}
+.footer{
+  width:80%;
+  margin:auto;
+  padding:3rem;
+  height:20rem;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  color:#d4d4d4;
+}
+.footer-inside-box{
+  width:20%;
+  height:20rem;
+  margin-top:3rem;
+}
+.footer-inside-box h4{
+  color:#ffffff;
+  font-weight:normal;
+}
+.footer-inside-box a{
+  text-decoration:none;
+  color:#76c38f;
+}
+.footer-inside-box a:hover{
+  color:#76a28e;
+}
+.footer-inside-box ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+.footer-inside-box ul li{
+  margin-bottom:0.75rem;
+  padding:0.1rem;
+}
+.footer-inside-box form input{
+  width:100%;
+  height:auto;
+  padding:0.5rem;
+  color:#c3c3c3;
+  margin-bottom:0.5rem;
+  border-color:#303030;
+  border-radius:0.5rem;
+  background-color:rgba(0, 0, 0, 0.7);
+}
+.footer-inside-box form button{
+  width:5rem;
+  height:auto;
+  margin-top:1rem;
+  border:none;
+  padding:0.5rem;
+  border-radius:0.5rem;
+  background:#76c38f;
+  color:#000000;
+  cursor:pointer;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-family:'Georgia',sans-serif;
+}
+.footer-inside-box form button:hover{
+  background: #76a28e;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: grey;
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, .95);
+    /* Black w/ opacity */
+    padding-top: 0px;
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color: transparent;
+    background-blend-mode: hard-light;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    width: 50%;
+    /* Could be more or les, depending on screen size */
+    height:auto ;
+    margin-bottom: 10%;
+    color:white;
+}
+input[type=text],
+input[type=password] {
+    color:black;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius:6px;
+}
+
+.logsubmit{
+  border:1px solid #33E0FF;
+}
+
+#signupButton{
+  border:1px solid rgba(229, 46, 220, 0.1);
+}
+/* Set a style for all buttons */
+button {
+    padding: 14px 20px;
+    margin: 8px 0;
+    width: 100%;
+    color: black;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 1000;
+    color: white;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    opacity: .7;
+    font-size: 12px;
+    font-family: 'Poppins';
+}
+button:hover {
+    background-color: #33E0FF;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    opacity: 1;
+}
+#signupButton:hover {
+    background-color: rgb(117, 35, 138);
+    box-shadow: 0px 15px 20px rgba(229, 46, 220, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+    opacity: 1;
+}
+
+#login-accountbutton{
+
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid #2EE59D;
+  margin: 5%;
+
+
+
+} 
+.circular--square:hover{
+  cursor:pointer;
+  opacity:.5;
+}
+   #logout{
+
+  border-radius:  5px;
+  background-color: transparent;
+  border: 1px solid red;
+  
+
+
+   } 
+   #logout:hover{
+
+
+box-shadow: 0px 15px 20px rgba(136, 22, 22, 0.92);
+
+   }
+
+   .avatar {
+    height: 50px;
+    margin-top: 2%;
+    height: 150px;
+    margin-left: 30%;
+}
+.avatar:hover {
+    cursor: pointer;
+    opacity: .7;
+    color: #fff;
+    /* transform: translateY(-5px); */
+}
+
+
+.signupclass {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  background-color: grey;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.95);
+  /* Black w/ opacity */
+  padding-top: 0px;
+}
+
+
+
+.close {
+  position: absolute;
+  right:25%;
+  top:30;
+  color: rgb(218, 93, 76);
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+/* Add Zoom Animation */
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+      -webkit-transform: scale(0)
+  }
+  to {
+      -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+      transform: scale(0)
+  }
+  to {
+      transform: scale(1)
+  }
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+  span.psw {
+      display: block;
+      float: none;
+  }
+  .cancelbtn {
+      width: 100%;
+  }
+}
+
+.Custom_Cancel>.sa-button-container>.cancel {
+  font-family: 'Poppins';
+  background-color: #DD6B55;
+  border-color: green;
+  border-radius: 24px;
+  width: 150px;
+}
+
+.Custom_Cancel>.sa-button-container>.cancel:hover {
+  background-color: red;
+  border-color: #DD6B55;
+}
+
+.Custom_Cancel {
+  background-color: lightgrey !important;
+}
+p {
+
+color:white;
+
+
+}
+small{
+
+color:white;
+
+}
