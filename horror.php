@@ -830,7 +830,7 @@
               </div>
       <pre id="div5">
       
-    #Ju duam.
+    Ju duam.
     Faleminderit
     qe na
     ndiqni.
@@ -842,7 +842,7 @@
     $from = "gentrit.mahmuti@student.uni-pr.edu";
     $to = "gentrit.mahmuti12@gmail.com";
     $subject = "PHP email";
-    $message = "Dikush vizitoi faqen tende.";
+    $message = "Dikush vizitoi faqen tende!";
     $headers = "From:Gentrit" . $from;
     mail($to,$subject,$message, $headers);
     echo "Emaili u dergua.";
