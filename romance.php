@@ -15,3 +15,14 @@
         background-color:black;
         background-repeat:repeat;
       }
+      #div99{
+        position:relative;
+        left:900px;
+        top:-980px;
+      }
+      .content-box{
+        width:100%;
+        height:100%;
+        background-size:cover;
+        background-repeat:no-repeat;
+      }
