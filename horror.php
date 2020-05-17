@@ -5,8 +5,8 @@
       body
       {
         overflow-x:hidden;
-        background-color:#f1f1f1;
-        background-image:url(horrorlibri.jpg);
+        background-color:black;
+       
         background-repeat:repeat;
         background-position:100px;
         background-size:100%;
@@ -296,7 +296,7 @@
         width: 23rem;
         height:23rem;
         border:1.5rem solid;
-        border-color:rgba(0,0,0,0.8);
+        border-color:powderblue;
         border-radius:12rem;
         background-image:url(origjina.jpg);
         background-size:cover;
@@ -309,7 +309,7 @@
         width:23rem;
         height:23rem;
         border:1.5rem solid;
-        border-color:rgba(0,0,0,0.8);
+        border-color:powderblue;
         border-radius:12rem;
         background-image:url(femijet.jpg);
         background-size:cover;
@@ -324,7 +324,7 @@
         width:23rem;
         height:23rem;
         border:1.5rem solid;
-        border-color:rgba(0,0,0,0.8);
+        border-color:powderblue;
         border-radius:12rem;
         background-image:url(femijaipeste.jpg);
         background-size:cover;
@@ -597,6 +597,14 @@
       {
         background:#76a28e;
         
+      }
+      p {
+      
+      color: powderblue;
+      }
+      small{
+      
+      color: powderblue;
       }
        </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
