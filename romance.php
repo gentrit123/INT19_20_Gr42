@@ -214,6 +214,18 @@
         cursor:pointer;
         background-image:url(heheee.jpg);
       }
+      .services-box:hover{
+        color:#ffffff;
+        background:#76c38f;
+      }
+      .services-box-icon{
+        margin-top:2rem;
+        font-size:4rem;
+      }
+      .services-box p {
+        font-size:2rem;
+        text-transform:uppercase;
+      }
       
       
         
