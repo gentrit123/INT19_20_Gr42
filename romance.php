@@ -438,6 +438,21 @@
         font-weight:bold;
         color:#009879;
       }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></scripts>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $imgtext = $("<p>lorem ipsum dolar</p>");
+        $imgtext.css({
+          'background' : '#000000',
+          'color' : '#ffffff',
+          'margin-top' : '9.9em',
+          'padding' : '0.5rem',
+          'text-transform' : 'uppercase',
+          'opacity' : '0.5'
+        });  
+    
       
       
       
