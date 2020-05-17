@@ -268,6 +268,26 @@
   align-items:center;
   flex-wrap:wrap;
 }
+.latestwork-img1{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(njekafenereretenxehte.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.latestwork-img2{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(djaloshi.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
       
       
       
