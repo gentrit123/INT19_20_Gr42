@@ -354,6 +354,22 @@
         align-items:center;
         color:#d4d4d4;
       }
+      .footer-inside-box{
+        width:20%;
+        height:20rem;
+        margin-top:3rem;
+      }
+      .footer-inside-box h4{
+        color:#ffffff;
+        font-weight:normal;
+      }
+      .footer-inside-box a {
+        text-decoration: none;
+        color:#76c38f;
+      }
+      .footer-inside-box a:hover{
+        color:#76a28e;
+      }
       
       
       
