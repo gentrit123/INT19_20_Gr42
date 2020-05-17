@@ -139,6 +139,24 @@
         cursor:pointer;
         font-family:'Georgia', sans-serif;
       }
+      .slider-btn-center-fixed{
+        visibility:hidden;
+      }
+      .slider-btn-right-fixed{
+        visibility:hidden;
+      }
+      .slider-btn-left:hover, .slider-btn-center:hover, .slider-btn-center-fixed:hover, .slider-btn-middle:hover, .slider-btn-right:hover, .slider-btn-right-fixed:hover {
+        color:#76c38f;
+      }
+      .slider-text button:hover{
+        background:#76a28e;
+      }
+      .slider-box-img{
+        width:20%;
+        height:auto;
+        padding:0.5rem;
+        margin-right:5rem;
+      }
         
     
       
