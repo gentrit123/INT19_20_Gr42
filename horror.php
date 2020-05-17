@@ -848,3 +848,6 @@
     echo "Emaili eshte derguar.";
  
 ?>
+  </pre>  
+  </body>
+</htm>      
