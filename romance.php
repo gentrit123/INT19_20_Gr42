@@ -564,6 +564,27 @@
         <p>Kujtimet e nje geishe</p>
         <small>Autori:<u>Arthur Golden</u></br>Pershkrimi: Me "Kujtimet e nje geishe" ne hyjme ne nje bote ku pamja e jashtme ka vlera te jashtezakonshme ku virgjeria e nje vajze i jepet si mall ankandi atij qe ofron me shume,ku grate sterviten te mashtrojne burrat me te pushtetshem dhe ku dashuria ndeshkohet si iluzion.</small>
     </div>
+    <div class="services-box">
+      <p>Une dhe Heminguej</p>
+      <small>Autori:<u>Paula McLainM</u></br>Pershkrimi: Ne zemer te luftes, ajo solli ne jete zerin e njerezve te thjeshte... dhe gjeti veten.Historia e vertete e gjeniut te letrave amerikane, Ernest Heminguejit, dhe gruas se tij te trete, korrespondentes se luftes, Marta Gellhornit.</small>
+    </div>
+  <div class="services-box">
+    <p>Dashnori japonez</p>
+    <small>
+      Autori:<u>Isabel Allende</u></br>
+    Pershkrimi: "Ka pasione qe ndizen si zjarre, derisa fati i mbyte e nje te rene te putres.Por edhe ne keto raste mbeten thengjij te ngrohte, qe jane gati te digjen serish sapo gjejne oksigjenin".Historia epike e dashurise midis vajzes se re Alma Belasko dhe kopshtarit japonez Ikimei:nje ngjarje qe del permbi kohen dhe endet lirisht nga Polonia e Luftes se dyte boterore ne San Francisko e diteve tona.
+    </small>
+  </div>
+</div>
+<div class="latestwork">
+      <div class="latestwork-btn"> Ardhjet e Reja </div>
+      <div class="latestwork-box-img">
+   
+        <div class="latestwork-img1"> </div>
+        <div class="latestwork-img2"> </div>
+        <div class="latestwork-img3"> </div>
+        <div class="latestwork-img4"> </div>
+        <div class="latestwork-img5"> </div>
     
       
       
