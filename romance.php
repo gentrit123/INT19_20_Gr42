@@ -101,5 +101,31 @@
       .slider-box-right{
         right:-100%;
       }
+      .slider-text{
+        width:30%;
+        height:auto;
+        margin-right:5rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+      }
+      .slider-text p {
+        font-size:3rem;
+      }
+      .slider-text button{
+        width:8rem;
+        height:auto;
+        margin-top:1rem;
+        border:none;
+        padding:0.5rem;
+        border-radius:0.5rem;
+        background:#76c38f;
+        color:#ffffff;
+        cursor:pointer;
+        font-family:'Georgia',sans-serif;
+      }
+        
+    
       
       
