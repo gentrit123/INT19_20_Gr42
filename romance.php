@@ -57,4 +57,27 @@
         justify-content:center;
         align-items:center;
       }
+      .header-nav li {
+        width:auto;
+        height:auto;
+        border-radius:0.5rem;
+        margin:0.5rem;
+        padding:0.5rem;
+        text-align:center;
+        text-transform:uppercase;
+      }
+      .header-nav li:hover{
+        background:#76c38f;
+      }
+      .header-nav ul a{
+        text-decoration:none;
+        color:#ffffff;
+      }
+      .slider{
+        width:100%;
+        margin:auto;
+        height:30rem;
+        padding:3rem;
+        color:#ffffff;
+      }
       
