@@ -338,6 +338,22 @@
   background-color:rgba(0, 0, 0, 0.7);
   color: #ffffff;
 }
+      .footer-box{
+        width:100%;
+        height:auto;
+        background-color:rgba(0, 0, 0, 0.7);
+        color:#ffffff;
+      }
+      .footer{
+        width:80%;
+        margin:auto;
+        padding:3rem;
+        height:20rem;
+        display:flex;
+        justify-content:space-around;
+        align-items:center;
+        color:#d4d4d4;
+      }
       
       
       
