@@ -812,4 +812,20 @@
                     echo "<h2>Lexim te kendshem</h2>";
                 }
                
+        $f = "librisygjeruar.txt";
+        $file = fopen($f, 'w');
+        if($file == false)
+        {
+          echo "ERROR-GABIM";
+          exit();
+        }
+        
+
+        fwrite($file, " \"IT\"- by STEPHAN KING");
+        fclose($file);
+
+        ?
+
+
+              </div>
         
