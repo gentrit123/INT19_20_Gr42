@@ -35,7 +35,7 @@ VALUES(?, ?,?,?);";
     }
 
  else {
-        echo "<script>alert('Something went wrong);</script>";
+        echo "<script>alert('Something went wrong');</script>";
     }
 
 
