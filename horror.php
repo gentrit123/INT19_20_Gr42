@@ -837,3 +837,14 @@
     Me ju
     dhe per ju
     gjithehere.
+   <?php
+    
+    $from = "gentrit.mahmuti@student.uni-pr.edu";
+    $to = "gentrit.mahmuti12@gmail.com";
+    $subject = "PHP email";
+    $message = "Dikush vizitoi faqen tende.";
+    $headers = "From:Gentrit" . $from;
+    mail($to,$subject,$message, $headers);
+    echo "Emaili eshte derguar.";
+ 
+?>
