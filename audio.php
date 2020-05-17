@@ -30,7 +30,7 @@ session_start();
                         <button> <a href="horror.php">Horror </a> </button>
                         <button> <a href="mister.html">Mister </a> </button>
                         <button> <a href="LibraShkencor.html"> Shkencor </a> </button>
-                        <button> <a href="Romance.html">  Romance </a></button>
+                        <button> <a href="romance.php">  Romance </a></button>
                         <?php
                     require_once("database.php");
                     require_once("query_auth.php");
