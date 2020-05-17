@@ -244,6 +244,31 @@
   font-size:2rem;
   font-family:'Georgia', sans-serif;
 }
+.latestwork-btn::before, .latestwork-btn::after{
+  content: '';
+  position:absolute;
+  width:26%;
+  height:0.25rem;
+  top:71.75rem;
+  border-bottom:0.25rem solid #303030;
+}
+.latestwork-btn::before{
+  left:14.25rem;
+}
+.latestwork-btn::after{
+  right:14.25rem;
+}
+.latestwork-box-img{
+  width:100%;
+  margin:auto;
+  height:auto;
+  padding:2rem;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+}
+      
       
       
         
