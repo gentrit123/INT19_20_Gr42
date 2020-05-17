@@ -288,6 +288,26 @@
   background-size:cover;
   background-repeat:no-repeat;
 }
+.latestwork-img3{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(efshehtaenjevere.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.latestwork-img4{
+  width:20rem;
+  height:13rem;
+  border:0.5rem solid #ffffff;
+  margin:1rem;
+  cursor:pointer;
+  background-image:url(marmarahanem.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
       
       
       
