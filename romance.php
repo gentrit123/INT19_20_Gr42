@@ -26,3 +26,19 @@
         background-size:cover;
         background-repeat:no-repeat;
       }
+      .baner-box{
+        width:100%;
+        height:40rem;
+        background:#000000;
+        background-color:rgba(0, 0, 0, 0.5);
+      }
+      .header{
+        width:80%;
+        margin:auto;
+        height:8rem;
+        padding:3rem;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        color:#ffffffl
+      }
