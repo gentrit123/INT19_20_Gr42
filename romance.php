@@ -157,6 +157,18 @@
         padding:0.5rem;
         margin-right:5rem;
       }
+      .slider-img1{
+        width:23rem;
+        height:23rem;
+        border:1.5rem solid;
+        border-color:white;
+        border-radius:12rem;
+        background-image: url(shtrattrendafilash.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+      }
+        
         
     
       
