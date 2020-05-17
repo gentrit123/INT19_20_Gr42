@@ -25,11 +25,11 @@ session_start();
                 
                     <ul>
 
-                        <button ><a href="project.php"> Kryefaqja</a></button>
+                        <button ><a href="#"> Kryefaqja</a></button>
                         <button> <a href="horror.php">Horror </a> </button>
                         <button> <a href="mister.php">Mister </a> </button>
-                        <button> <a href="LibraShkencor.php"> Shkencor </a> </button>
-                        <button> <a href="Romance.php">  Romance </a></button>
+                        <button> <a href="shkencor.php"> Shkencor </a> </button>
+                        <button> <a href="romance.php">  Romance </a></button>
 
                         <?php
                     require_once("database.php");
@@ -39,7 +39,8 @@ session_start();
                     echo  (isset($_SESSION['username']) ? "" : "  <button id ='login-accountbutton' style='width:auto;' 
                     class='greenbtn'> Login </button>"  );
 
-                  
+                   $cookie = $_COOKIE['username'];
+                   echo "<p> <span style= 'color:powderblue;'>Last User: </span>  $cookie </p>";
                   
                     
                          ?>
@@ -185,42 +186,126 @@ session_start();
         <div class="footer-box">
             <div class="footer">
                 <div class="footer-inside-box">
-                    <h4> Thenje per ju</h4>
-                    <p>
-                        "Ekzitojne dy dite ne vite qe nuk mund te besh asgje: njera quhet "dje" dhe tjetra "neser".
-                        Prandaj e sotmja eshte nje dite e pershtatshme te duash, te besosh dhe kryesisht te jetosh!"
-                    </p>\
+                <?php
+                $nrlibrave  = ["Horror" => 65, "Romance" =>55,"Shkencor"=>54,"Mister"=>22];
+
+                $librath= $nrlibrave["Shkencor"];
+                echo "<p>Numri momental i <span style='color:powderblue;'>librave Shkencor </span> ne stock:</p>";
+                try{
+                if($librath<0)
+                {
+                    throw new Exception();
+
+                }
+                else{
+                    echo "<p style='color:grey;'>$librath</p>";
+                }
+                }
+                catch(Exception $ex)
+                {
+                    echo "<h3>Gabim ne vlere tek : </h3>".$ex; 
+                }
+                
+
+                $libraH = $nrlibrave['Horror'];
+                echo "<p>Numri momental i <span style='color:powderblue;'>librave Horror </span> ne Stock eshte: ";
+                try{
+                    if($libraH<0)
+                    {
+                        throw new Exception();
+    
+                    }
+                    else{
+                        echo "<p style='color: grey;'>$libraH</p>";
+                    }
+                    }
+                    catch(Exception $ex)
+                    {
+                        echo "<h3>Gabim ne vlere tek : </h3>".$ex; 
+                    }
+                    
 
 
+
+                ?>
 
                 </div>
                 <div class="footer-inside-box">
-                    <h4> Link i shpejte</h4>
-                    <ul>
-                        <li> <a href="#"> <span> &raquo; </span> Dergo ne fillim </a> </li>
-                    </ul>
-                </div>
-                <div class="footer-inside-box">
-                    <h4> Komentet nga lexuesit</h4>
-                    <p>
-                        <span class="footer-green"> Albin Mehmeti </span> Faleminderit shume, jeni faqe shume e qelluar, na ndihmoni
-                        shume ne pergjezhjen e librave per te lexuar dhe mbi te gjitha na dhuroni libra falas.
-                    </p>
-                    <p>
-                        <span id="footer-green"> Fiona Ahmeti </span> Vetem vazhdoni pune shumee qelluar, sepse shoqeria jone e "teknologjise"
-                        ka shume nevoje per libra te tille.
-                    </p>
-                </div>
-                <div class="footer-inside-box">
-                    <h4> Kontakti: </h4>
-                    <form>
-                        <input type="text" placeholder="Emri dhe Mbiemri">
-                        <input type="email" placeholder="Email">
-                        <input type="text" placeholder="Subjekti">
-                        <input type="text" placeholder="Mesazhi">
-                        <button type="submit"> Ruaj</button>
+                <?php
+                $nrlibrave  = ["Horror" => 65, "Romance" =>55,"Shkencor"=>54,"Mister"=>22];
 
-                    </form>
+                $libraR = $nrlibrave['Romance'];
+                echo "<p>Numri momental i <span style='color:powderblue;'>librave Romance </span> ne Stock eshte: ";
+                try{
+                    if($libraH<0)
+                    {
+                        throw new Exception();
+    
+                    }
+                    else{
+                        echo "<p style='color: grey;'>$libraR</p>";
+                    }
+                    }
+                    catch(Exception $ex)
+                    {
+                        echo "<h3>Gabim ne vlere tek : </h3>".$ex; 
+                    }
+
+                    $libraM = $nrlibrave['Mister'];
+                    echo "<p>Numri momental i <span style='color:powderblue;'>librave Mister </span> ne Stock eshte: ";
+                    try{
+                        if($libraM<0)
+                        {
+                            throw new Exception();
+        
+                        }
+                        else{
+                            echo "<p style='color: grey;'>$libraM</p>";
+                        }
+                        }
+                        catch(Exception $ex)
+                        {
+                            echo "<h3>Gabim ne vlere tek : </h3>".$ex; 
+                        }
+                        
+    
+
+                ?>
+                </div>
+                <div class="footer-inside-box">
+                <?php
+                $nrlibrave  = ["Horror" => 65, "Romance" =>55,"Komedi"=>55,"Mister"=>22, "Total"=>196];
+
+                $librath= $nrlibrave["Total"];
+                echo "<H3>Numri total i librave ne stock:<H3>";
+                try{
+                if($librath<0)
+                {
+                    throw new Exception();
+
+                }
+                else{
+                    echo "<h1 style='color: powderblue;'>$librath</h1>";
+                }
+                }
+                catch(Exception $ex)
+                {
+                    echo "<h3>Gabim ne vlere tek : </h3>".$ex; 
+                }
+                finally{
+                    echo "<h2>Lexim te kendshem</h2>";
+                }
+                ?>
+
+                
+
+                </div>
+                <div class="footer-inside-box">
+                <ul>
+          <li> <a href="#"> <span>&raquo; </span style='color: powderblue;'> Dergo ne Fillim te Faqes </a> </li>
+          
+          
+          </ul>
                 </div>
             </div>
             <P> Na kontaktoni ne email: <a href="mailto:gm@gmail.com"> gm@gmail.com </a> </P>
@@ -254,29 +339,35 @@ session_start();
         </form>
     </div>
     <div id="signup" class="signupclass">
-        <form class="modal-content animate" action="signup.php" method="post">
+        <form class="modal-content animate" method="post" action="signup.php">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('signup').style.display='none'" class="close" title="Close Modal">&times;</span>
             </div>
             <div class="container">
                 Signup
-                <!-- <h1 style="margin-left: 35%;"> SIGN UP</h1> -->
+                
                 <br>
-                <input type="text" placeholder="Enter your name" name="fname" required class="uname">
+                <input type="text" placeholder="Enter your name" name="fname" id="fname" required class="uname">
                 
                 <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required class="uname">
+                <input type="text" placeholder="Enter Username" name="uname" id="uname" required class="uname">
                 <label for="psw"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" id="psw1" name="psw" required class="password">
                 <input type="password" placeholder="Re-enter Password" id="psw2" name="psw2" required class="password">
                 Email
-                <input type="email" placeholder="Your email" name="email" required class="signupemail" style="width:100%; height:50px; padding: 12px 20px;" required>
-                <button type="submit" class="logsubmit" id="signupButton1" onclick="return Validate()">Sign up</button>
+                <input type="email" placeholder="Your email" name="email" id ="email" required class="signupemail" style="width:100%; height:50px; padding: 12px 20px;" required>
+                <button type="submit" class="logsubmit" id="signupButton1" >Sign up</button>
                 <br>
                 <br>
             </div>
         </form>
     </div>
+
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<meta name="google-signin-client_id" content="991209987037-ai24ultf2fv5i9up0kiiv1bmjik38hho.apps.googleusercontent.com">
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="jquery.scrollTo.min.js"></script>
@@ -357,6 +448,7 @@ session_start();
                     } else if (response == 2) {
                        
                       alert("failure");
+
                     }
                 }
             });
@@ -369,9 +461,48 @@ session_start();
 
         </script>
 
+
+<!-- <script type="text/javascript">
+        function signup() {
+            var username = $("#uname").val();
+            var pass = $("#psw2").val();
+            
+            var fname = $("#fname").val();
+            var email = $("#email").val();
+
+            alert(username);
+           // console.log("inside signup");
+            // $.ajax({
+            //     type: 'post',
+            //     url: 'signup.php',
+            //     data: {
+            //         signup:"signup",
+            //         username: username,
+            //         password: pass,
+            //         fname:fname,
+            //         email:email
+            //     },
+            //     success: function(response) {
+            //         if (response == 1) {
+            //           window.location.replace('audio.php');
+                      
+            //         } else if (response == 2) {
+                       
+            //           alert("failure");
+            //         }
+            //     }
+            // });
+            return false;
+        }
+
+
+        </script> -->
+
+
 <script>
         //dipslays the login(modal)
-        const signup = document.getElementById('signupButton');
+        var signup = document.getElementById('signupButton');
+        
 
         signup.addEventListener('click', () => {
             var s = document.getElementById('signup');
@@ -381,38 +512,7 @@ session_start();
         
         });
     </script>
-        <script type="text/javascript">
-        $(function() {
-            //checks if passwords are the same
-            $("#signupButton1").click(function() {
-                var passalert = document.getElementById('alert');
-                var password = $("#psw1").val();
-                var confirmPassword = $("#psw2").val();
-                if (password != confirmPassword) {
-                    swal({
-                        title: "Passwords do not match",
-                        type: "error",
-                        showConfirmButton: true,
-                        showCancelButton: false,
-                        customClass: "Custom_Cancel",
-                        confirmButtonColor: "#DD6B55"
-                    });
 
-                    return false;
-                }
-                swal({
-                    title: "Success",
-                    type: "success",
-                    showConfirmButton: false,
-                    customClass: "success",
-                    timer: 1500
-
-                });
-
-                return true;
-            });
-        });
-    </script>
     <script>
         function showDiv() {
             document.getElementById('map').style.display = "block";
@@ -423,6 +523,54 @@ session_start();
             document.getElementById('budget-4id').style.display="block";
         }
     </script>
+
+
+
+<script>
+
+function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+
+  var email = profile.getEmail();
+  var name = profile.getName();
+//   var id = profile.getID();
+//   var profileimage = profile.getImageUrl();
+
+  var username  = email.substring(0, email.lastIndexOf("@"));
+var domain = email.substring(email.lastIndexOf("@") +1);
+
+
+
+
+
+    $.ajax({
+                type: 'post',
+                url: 'googlelogin.php',
+                data: {
+                    email: email,
+                    username: username,
+                    name:name
+                },
+                success: function(response) {
+                    
+                    if (response == 1) {
+                        window.location.replace('audio.php');
+
+                    } else if (response == 2) {
+                        alert("Failure");
+                    }
+
+                }
+            });
+
+
+
+
+
+}
+
+</script>
+
 
 
 
