@@ -504,6 +504,22 @@
             </ul>
           </div>
         </div>
+        <div class="slider">
+          <div class="slider-box-left">
+            <div class="slider-btn-center-fixed">&gt;</div>
+            <div class="slider-text">
+              <p>Shtrat Trendafilash</p>
+              <small>
+                Pershkrim i shkurter:
+                Si vajza te vogla, Mekenzi,ema,lorela dhe parkeri kalojne oore te tera duke luajtur rolet e tyre te parapelqyera.Vite me pas, fantazite e tyre behen realitet kur ato hapin agjencine e tyre te dasmave, per tia bere relatitet endrrat qdo femre.Me lule fantastike, embelsira te mrekullueshme dhe me qaste te magjishme te fiksuara ne fotografi, kuarteti 'Nuset' i Nora Roberts-it tregon rrugetimin magjik te ndjenjave te femrave drejt romances.
+              </small>
+              <button type="button">Lexo me shume<span>&raquo;</span></button>
+            </div>
+            <div class="slider-box-img">
+              <div class="slider-img1 img-sepia"></div>
+            </div>
+            <div class="slider-btn-center">&gt;</div>
+          </div>
     
       
       
