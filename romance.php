@@ -389,6 +389,23 @@
         border-radius:0.5rem;
         background-color:rgba(0, 0, 0, 0.7);
       }
+      .footer-inside-box form button{
+        width:5rem;
+        height:auto;
+        margin-top:1rem;
+        border:none;
+        padding:0.5rem;
+        border-radius:0.5rem;
+        background:#76c38f;
+        color:#000000;
+        cursor:pointer;
+        text-transform:uppercase;
+        font-weight:bold;
+        font-family:'Georgia', sans-serif;
+      }
+      .footer-inside-box form button:hover{
+        background:#76a28e;
+      }
       
       
       
