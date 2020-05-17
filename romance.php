@@ -520,6 +520,22 @@
             </div>
             <div class="slider-btn-center">&gt;</div>
           </div>
+          <div class="slider-box">
+            <div class="slider-btn-left">&lt;</div>
+            <div class="slider-text">
+              <p>Tatiana dhe Aleksandri</p>
+              <small>
+                Pershkrim i shkurter:
+                Nje histori dashurie e veqante, mbreslenese dhe frymezuese... Tatiana eshte vetem tetembedhjete vjeqe , shtatezene dhe e ve, kur arratiset nga Leningradi i shklaterruar nga lufta per te kerkuar nje jete te re ne Amerike.Por fantazmat e se kaluares nuk e lene te qete.Ajo eshte e bindur se burri i saj, majori i ushtrise se kuqe,Aleksandrer Belov,eshte ende gjalle dhe ka deshperimisht nevoje per te...
+              </small>
+              <button type="button">Lexo me shume<span>&raquo;</span></button>
+            </div>
+            <div class="slider-box-img">
+              <div class="slider-img2"></div>
+            </div>
+            <div class="slider-btn-right-fixed">&gt;</div>
+            <div class="slider-btn-right">&gt;</div>
+          </div>
     
       
       
