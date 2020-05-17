@@ -812,46 +812,4 @@
                     echo "<h2>Lexim te kendshem</h2>";
                 }
                
-        $f = "librisygjeruar.txt";
-        $file = fopen($f, 'w');
-        if($file == false)
-        {
-          echo "ERROR - GABIM";
-          exit();
-        }
         
-
-        fwrite($file, " \"IT\"-by STEPHAN KING");
-        fclose($file);
-
-        ?
-
-
-              </div>
-      <pre id="div5">
-      
-    Ju duam.
-    Faleminderit
-    qe na
-    ndiqni.
-    Me ju
-    dhe per ju
-    gjithehere.
-  <?php
-    
-    $from = "gentrit.mahmuti@student.uni-pr.edu";
-    $to = "gentrit.mahmuti12@gmail.com";
-    $subject = "PHP email";
-    $message = "Dikush vizitoi faqen tende!";
-    $headers = "From:Gentrit" . $from;
-    mail($to,$subject,$message, $headers);
-    echo "Emaili u dergua.";
- 
-?></pre>
-
-
-      
-      
-          
-  </body>
-</html>
