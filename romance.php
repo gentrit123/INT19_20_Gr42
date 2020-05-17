@@ -451,7 +451,20 @@
           'padding' : '0.5rem',
           'text-transform' : 'uppercase',
           'opacity' : '0.5'
-        });  
+        }); 
+        $('.latestwork-img').hover(function(){
+          $(this).append($imgtext);
+        });
+        // left slide button
+        $('.slider-btn-center').click(function(){
+          $('.slider-box-left').animate({left:'-100%'});
+          $('.slider-box').animate({right:'0'});
+        });
+        // left slide button mobile
+        $('.slider-btn-center-fixed').click(function(){
+          $('.slider-box-left').animate({left:'-100%'});
+          $('.slider-box').animate({right:'0'});
+        });
     
       
       
