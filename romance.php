@@ -205,6 +205,15 @@
         justify-content:space-between;
         align-items:center;
       }
+      .services-box{
+        width:20%;
+        height:100%;
+        color:#303030;
+        background:#33E0FF;
+        text-align:center;
+        cursor:pointer;
+        background-image:url(heheee.jpg);
+      }
       
       
         
