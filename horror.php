@@ -652,11 +652,11 @@
           </div>
           <div class="header-nav">
             <ul>
-              <li><a href="project.html">Kryefaqja</a></li>
-              <li><a href="horror.html">Horror</a></li>
-              <li><a href="mister.html">Mister</a></li>
-              <li><a href="LibraShkencor.html">Shkence</a></li>
-              <li><a href="Romance.html">Romance</a></li>
+              <li><a href="project.php">Kryefaqja</a></li>
+              <li><a href="horror.php">Horror</a></li>
+              <li><a href="mister.php">Mister</a></li>
+              <li><a href="LibraShkencor.php">Shkence</a></li>
+              <li><a href="Romance.php">Romance</a></li>
             </ul>
           </div>
         </div>
