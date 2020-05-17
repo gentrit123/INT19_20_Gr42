@@ -13,11 +13,12 @@ if(isset($_POST['do_login'])){
 
    if(user_login($username,$pass)){
        
-       $_SESSION['username'] = $username;
+       $_SESSION['username'] =$username;
        
        echo 1;
        
-       if(isset($_POST['username']) && !empty($_POST['username'])){
+       if(isset($_POST['username']) && !empty($_POST['username']))
+       {
 
         $cookie_value=$_POST['username'];
         setcookie('username',$cookie_value, time() + 100000000 );
