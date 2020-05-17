@@ -370,6 +370,26 @@
       .footer-inside-box a:hover{
         color:#76a28e;
       }
+      .footer-inside-box ul{
+        margin:0;
+        padding:0;
+        list-style-type:none;
+      }
+      .footer-inside-box ul li {
+        margin-bottom:0.75rem;
+        padding:0.1rem;
+      }
+      .footer-inside-box form input {
+        width:100%;
+        height:auto;
+        padding:0.5rem;
+        color:#c3c3c3;
+        margin-bottom:0.5rem;
+        border-color:#303030;
+        border-radius:0.5rem;
+        background-color:rgba(0, 0, 0, 0.7);
+      }
+      
       
       
       
