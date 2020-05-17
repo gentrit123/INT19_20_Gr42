@@ -27,7 +27,7 @@ session_start();
                     <ul>
 
                         <button ><a href="project.html"> Kryefaqja</a></button>
-                        <button> <a href="horror.html">Horror </a> </button>
+                        <button> <a href="horror.php">Horror </a> </button>
                         <button> <a href="mister.html">Mister </a> </button>
                         <button> <a href="LibraShkencor.html"> Shkencor </a> </button>
                         <button> <a href="Romance.html">  Romance </a></button>
