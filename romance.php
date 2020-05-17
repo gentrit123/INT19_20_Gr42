@@ -487,6 +487,23 @@
       });
     </script>
   </head>
+  <body>
+    <div class="content-box">
+      <div class="baner-box">
+        <div class="header">
+          <div class="header-logo">
+            <h1>Biblioteka Dituria</h1>
+          </div>
+          <div class="header-nav">
+            <ul>
+              <li><a href="index.php"><i>Kryefaqja</i></a></li>
+              <li><a href="horror.php"><i>Horror</a></i></li>
+              <li><a href="mister.php"><i>Mister</a></i></li>
+              <li><a href="shkencor.php"><i>Libra Shkencor</i></a></li>
+              <li><a href="#"><i>Romance</i></a></li>
+            </ul>
+          </div>
+        </div>
     
       
       
