@@ -5,16 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
        
         <style type="text/css">
-            {
-    box-sizing: border-box;
-}
+          
 body{
     margin: 10;
     padding: 10;
     font-family: 'Georgia', sans-serif;
-    background: #262626;
+    background: #d4d4d4;
     overflow-x: hidden;
-     
+     background-color: black; 
+     background-repeat: repeat;
 }
 .content-box{
     width: 100%;
@@ -159,7 +158,7 @@ body{
     width: 23rem;
     height: 23rem;
     border: 1.5rem solid;
-    border-color:  rgba(0, 0, 0, 0.8);
+    border-color: powderblue;
     border-radius: 12rem;
     background-image: url(hija-e-gjarpritt.jpg);
     background-size: cover;
@@ -233,7 +232,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: ;
+   
 }
 .paragrafi p{
     text-align: left;
@@ -257,7 +256,7 @@ body{
     position: absolute;
     top: -100%;
 }
-. ul{
+ ul {
 
     padding: 0;
     margin: 0;
@@ -314,57 +313,90 @@ body{
 {
     transform:  scale(1.2);
 }
+p{
+
+color: powderblue;
+
+}
+small {
+
+color: powderblue;
+
+}
+.footer-box{
+  width:100%;
+  height:auto;
+  background-color:rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+}
+.footer{
+  width:80%;
+  margin:auto;
+  padding:3rem;
+  height:20rem;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  color:#d4d4d4;
+}
+.footer-inside-box{
+  width:20%;
+  height:20rem;
+  margin-top:3rem;
+}
+.footer-inside-box h4{
+  color:#ffffff;
+  font-weight:normal;
+}
+.footer-inside-box a{
+  text-decoration:none;
+  color:#76c38f;
+}
+.footer-inside-box a:hover{
+  color:#76a28e;
+}
+.footer-inside-box ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+.footer-inside-box ul li{
+  margin-bottom:0.75rem;
+  padding:0.1rem;
+}
+.footer-inside-box form input{
+  width:100%;
+  height:auto;
+  padding:0.5rem;
+  color:#c3c3c3;
+  margin-bottom:0.5rem;
+  border-color:#303030;
+  border-radius:0.5rem;
+  background-color:rgba(0, 0, 0, 0.7);
+}
+.footer-inside-box form button{
+  width:5rem;
+  height:auto;
+  margin-top:1rem;
+  border:none;
+  padding:0.5rem;
+  border-radius:0.5rem;
+  background:#76c38f;
+  color:#000000;
+  cursor:pointer;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-family:'Georgia',sans-serif;
+}
+.footer-inside-box form button:hover{
+  background: #76a28e;
+}
 
 
 
 
         </style>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-        <script src="jquery.scrollTo.min.js"></script>
-        <script>
-        $(document).ready(function(){
-            $imgtext = $("<p>lorem ipsum dolar</p>");
-            $imgtext.css({
-               'background' : '#000000',
-               'color' : '#ffffff',
-                'margin-top' : '9.9em',
-                'padding' : '0.5rem',
-                'text-transform' : 'uppercase',
-               'opacity' : '0.5'
-            });
-           
-            
-            $('.slider-btn-center').click(function(){
-                $('.slider-box-left').animate({left:'-100%'});
-                $('.slider-box').animate({right:'0'});
-            });
-           
-           
-            $('.slider-btn-left').click(function(){
-                $('.slider-box').animate({right:'-200%'});
-                $('.slider-box-left').animate({left:'0'});
-            });
-            
-            $('.slider-btn-right').click(function(){
-                $('.slider-box').animate({left:'-200%'});
-                $('.slider-box-right').animate({right:'0'});
-            });
-           
-            
-            $('.slider-btn-middle').click(function(){
-                $('.slider-box').animate({left:'0%'});
-                $('.slider-box-right').animate({right:'-100%'});
-            });
-            
-        });
-        function myFunction()
-          {
-            var muns=parseInt(document.getElementsByTagName('nums').value);
-            var numh=parseInt(document.getElementsByTagName('numh').value);
-            document.getElementsByTagName('output').innerHTML=nums+numh;
-          }
-          
-        </script>
+        
     </head>
     <body>
         <div class="content-box">
@@ -377,11 +409,11 @@ body{
                 
                 <div class="header-nav" >
                     <ul>
-                        <li><a href="projekt.html">Kryefaqja</a></li>
-                        <li><a href="horror.html">Horror</a></li>
+                        <li><a href="index.php">Kryefaqja</a></li>
+                        <li><a href="horror.php">Horror</a></li>
                         <li><a href="#">Mister</a></li>
-                        <li><a href="LibraShkencor.html">Libra Shkencor</a></li>
-                        <li><a href="romanca.html">Romance</a></li>
+                        <li><a href="shkencor.php">Libra Shkencor</a></li>
+                        <li><a href="romanca.php">Romance</a></li>
                                             </ul>
                 </div>
             </div>
@@ -432,39 +464,24 @@ body{
             <div class="services-box">
                 
                 <p>Vajza e dikurshme</p> 
-                <small style = "font-size: 20px";>
-                <?php
-                function pershkrimi(){
-                $array = array("Përshkrim " ,"i " , " shkurtër");
-                $var = implode("", $array);
-                echo $var."<br>";
-                }
-                pershkrimi();
-
-                ?>
+                <small>
 Përshkrim i shkurtër
 Një triller psikologjik, që ngërthen fatin e dy grave: të mirën dhe të mistershmen, në një vorbull dysie, vdekjeje dhe mashtrimi. Libri vjen në shqip nga gazetari i njohur Blendi Salaj</small>
             </div>
             <div class="services-box">
             
                 <p>Misteret e princeshave te bukura</p>
-                <small style = "font-size: 20px";> <?php
-                pershkrimi();
-                ?> Përshkrim i shkurtër
+                <small>Përshkrim i shkurtër
 Këto libra janë përzgjedhur për vajza që nisin të kenë misteret e tyre, të ndërtojnë botën e tyre, dhe të shfaqen të rezervuara në raport me të tjerët. Dy librat e Frances Burnett, “Kopshti i fshehtë” dhe “Princesha e vogël”, “Rebeka” dhe “Etika për vajza” janë pjesë e një seti për të tilla lexuese.... </small>    </div>
             <div class="services-box">
             
                 <p>Misteri i trenit blu</p>
-                <small style = "font-size: 20px";> <?php
-                pershkrimi();
-                ?> Përshkrim i shkurtër
+                <small>Përshkrim i shkurtër
 Agatha Christie vjen me një tjetër roman në gjuhën shqipe: “Misteri i trenit blu”, i vlerësuar si një nga romanet më të mira në zhanrin mister të kësaj autoreje.</small></div>
             <div class="services-box">
             
                 <p>The Mister </p>
-                <small style = "font-size: 20px";> <?php
-                pershkrimi();
-                ?> Përshkrim i shkurtër
+                <small>Përshkrim i shkurtër
 Autorja e “50 hijet e Greit” vjen me një roman të ri në shqip, ku ka protagonistë edhe shqiptarë. Një gjë e tillë shkaktoi debate të ashpra në Shqipëri. Nga zemra e Londrës, përmes peizazhit rural të Kornuollit, deri në bukuritë e zymta, të rrezikshme të Ballkanit, The Mister është një udhëtim magjepsës rreziku dhe dëshire që e lë lexuesin pa frymë deri në faqen e fundit.</small></div>
         </div>    
         
@@ -533,11 +550,23 @@ Autorja e “50 hijet e Greit” vjen me një roman të ri në shqip, ku ka prot
         </div>
     </div>
      
-    <?php
-                $nrlibrave  = ["Mister" => 222, "Romance" =>552,"Komedi"=>544,"Horror"=>650];
+
+          <div class="footer-box">
+              <div class="footer">
+          <div class="footer-inside-box">
+          <h4> Link i shpejte </h4>
+          <ul>
+          <li> <a href="#"> <span>&raquo; </span> Dergo ne Fillim te Faqes </a> </li>
+          
+          
+          </ul>
+          </div>
+          <div class="footer-inside-box">
+          <?php
+                $nrlibrave  = ["Horror" => 65, "Romance" =>55,"Shkencor"=>54,"Mister"=>22];
 
                 $librath= $nrlibrave["Mister"];
-                echo "<H3>Numri momental i librave mister ne stock:<H3>";
+                echo "<H3>Numri momental i librave Mister ne stock:<H3>";
                 try{
                 if($librath<0)
                 {
@@ -555,24 +584,58 @@ Autorja e “50 hijet e Greit” vjen me një roman të ri në shqip, ku ka prot
                 finally{
                     echo "<h2>Lexim te kendshem</h2>";
                 }
-               
-        $f = "librisygjeruar.txt";
-        $file = fopen($f, 'w');
-        if($file == false)
-        {
-          echo "ERROR - GABIM";
-          exit();
-        }
-        
-          ?>
-        
+                ?>
+
+
+          </div>
+</div>
+</div>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+
+    <script>
+  $(document).ready(function(){
+  $imgtext = $("<p>lorem ipsum dolar</p>");
+  $imgtext.css({
+    'background' : '#000000',
+    'color' : '#ffffff',
+    'margin-top' : '9.9em',
+    'padding' : '0.5rem',
+    'text-transform' : ' uppercase',
+    'opacity' : '0.5'
+  });
+  $('.latestwork-img').hover(function(){
+    $(this).append($imgtext);
+  });
+  $('.slider-btn-center').click(function(){
+    $('.slider-box-left').animate({left:'-100%'});
+     $('.slider-box').animate({right:'0'});
+  });
+  $('.slider-btn-center-fixed').click(function(){
+    $('.slider-box-left').animate({left:'-100%'});
+    $('.slider-box').animate({right:'0'});
+  });
+  $('.slider-btn-left').click(function(){
+    $('.slider-box').animate({right:'-200%'});
+     $('.slider-box-left').animate({left:'0'});
+  });
+
+  $('.slider-btn-right').click(function(){
+    $('.slider-box').animate({left:'-200%'});
+    $('.slider-box-right').animate({right:'0'});
+  });
+  $('.slider-btn-right-fixed').click(function(){
+    $('.slider-box').animate({left:'-200%'});
+    $('.slider-box-right').animate({right:'0'});
+  });
+  $('.slider-btn-middle').click(function(){
+    $('.slider-box').animate({left:'0%'});
+    $('.slider-box-right').animate({right:'-100%'});
+                                   });
+});
+</script>
+
     
-        
-
-          <a href="ald.html"><h2>Lexuesi i javes</h2></a>
-          <br>
-          <a href="game.html"><h2>Argetim</h2></a>
-
 
 
         
