@@ -536,6 +536,22 @@
             <div class="slider-btn-right-fixed">&gt;</div>
             <div class="slider-btn-right">&gt;</div>
           </div>
+          <div class="slider-box-right">
+            <div class="slider-btn-middle">&lt;</div>
+            <div class="slider-text">
+              <p>Si cokollate e hidhur</p>
+              <small>
+                Pershkrim i shkurter:
+                Nga nxehtesia e pameshirshme e veres haitiane te shtepite luksoze te elites amerikane, nga mbremjet elegante te Londres ne kaosin shumengjyresh te Ist Endit, tri vajza jane ne kerkim te pjesve qe u mungojne nga jeta e tyre- dhe do te ndryshojne botet e tyer per ti gjetur ato...
+              </small>
+              <button type="button">Lexo ne shume<span>&raquo;</span></button>
+            </div>
+            <div class="slider-box-img">
+              <div class="slider-img3 img-grayscale"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     
       
       
