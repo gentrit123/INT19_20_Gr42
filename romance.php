@@ -618,6 +618,37 @@
     </tr>
   </tbody>
 </table> -->
+<div class="footer-box">
+      <div class="footer">
+        <div class="footer-inside-box">
+        <?php
+                $nrlibrave  = ["Horror" => 65, "Romance" =>55,"Shkencor"=>54,"Mister"=>22];
+
+                $librath= $nrlibrave["Romance"];
+                echo "<H3>Numri momental i librave Romance ne stock:<H3>";
+                try{
+                if($librath<0)
+                {
+                    throw new Exception();
+
+                }
+                else{
+                    echo "<h1>$librath</h1>";
+                }
+                }
+                catch(Exception $ex)
+                {
+                    echo "<h3>Gabim ne vlere tek : </h3>".$ex; 
+                }
+                finally{
+                    echo "<h2>Lexim te kendshem</h2>";
+                }
+                ?>
+
+        
+
+    </div>
+    </div>
 
     
       
