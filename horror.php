@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Libra horror </title>
+    <title> Libra horror </title>
     <style>
       body
       {
@@ -15,12 +15,10 @@
       h2
       {
         color:red;
-        
       }
       h3
       {
         color:red
-          
       }
       #div4
       {
@@ -110,6 +108,7 @@
         right:300px;
         
       }
+      #Keyframes ndryshim ngjyrash
 @keyframes shembull{
   from{background-color:black;}
   to{background-color:white;}
@@ -674,7 +673,7 @@
             <div class="slider-text">
               <p>Origjina</p>
               <small>Pershkrim i shkurter
-                Kushdo te jeni:Qfaredo te besoni:Gjithqka eshte gati te ndryshoj.Origjina eshte jashtzakonisht krijues-romani me i shkelqyer she me zbavites i Dan Brown-it deri me sot.Per me shume,ju ftojme te lexoni review e Ron Charles,editor i "Book World",rreth romanit Origjina ,botuar ne gazeten amerikane.</small>
+                Kushdo te jeni,Qfaredo te besoni,Gjithqka eshte gati te ndryshoj.Origjina eshte jashtzakonisht krijues-romani me i shkelqyer she me zbavites i Dan Brown-it deri me sot.Per me shume,ju ftojme te lexoni review e Ron Charles,editor i "Book World",rreth romanit Origjina ,botuar ne gazeten amerikane.</small>
               <button type="button">Lexo me shume <span>&raquo;</span></button>
             </div>
             <div class="slider-box-img">
