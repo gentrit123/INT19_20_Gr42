@@ -80,4 +80,26 @@
         padding:3rem;
         color:#ffffff;
       }
+      .slider-box, .slider-box-left, .slider-box-right{
+        width:100%;
+        margin:auto;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        padding:1rem;
+        position:absolute;
+        top:11rem;
+      }
+      .slider-box-left{
+        left:-100%;
+      }
+      .slider-box{
+        left:0;
+        right:0;
+      }
+      .slider-box-right{
+        right:-100%;
+      }
+      
       
