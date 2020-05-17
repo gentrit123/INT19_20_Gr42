@@ -406,6 +406,21 @@
       .footer-inside-box form button:hover{
         background:#76a28e;
       }
+      .content-table{
+        border-collapse:collapse;
+        margin:25px 0;
+        font-size:0.9rem;
+        min-width:400px;
+        border-radius:5px 5px 0 0;
+        overflow:hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      }
+      .content-table thead tr{
+        background-color:#009879;
+        color:#ffffff;
+        text-align:left;
+        font-weight:bold;
+      }
       
       
       
