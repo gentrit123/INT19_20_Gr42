@@ -226,6 +226,24 @@
         font-size:2rem;
         text-transform:uppercase;
       }
+      .latestwork{
+  text-align:center;
+  width:80%;
+  margin:auto;
+  height:auto;
+}
+.latestwork-btn{
+  width:25%;
+  margin:auto;
+  border:none;
+  background:#303030;
+  padding:1rem;
+  border-radius:0.5rem;
+  color:#ffffff;
+  text-transform:uppercase;
+  font-size:2rem;
+  font-family:'Georgia', sans-serif;
+}
       
       
         
