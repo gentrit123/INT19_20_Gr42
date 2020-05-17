@@ -585,6 +585,18 @@
         <div class="latestwork-img3"> </div>
         <div class="latestwork-img4"> </div>
         <div class="latestwork-img5"> </div>
+        <div class="latestwork-img6"> </div>
+  </div>
+      </div>
+<!-- <table class="content-table">
+  <thead>
+    <tr>
+      <th>Emri i lexuesit</th>
+      <th>Mbiemri</th>
+      <th>Numri i librave te lexuar per kete muaj</th>
+      <th>Shkollimi</th>
+    </tr>
+  </thead>
     
       
       
