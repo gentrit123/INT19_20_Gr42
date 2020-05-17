@@ -332,6 +332,12 @@
   border-color:#76c38f;
   filter:grayscale(0);
 }
+.footer-box{
+  width:100%;
+  height:auto;
+  background-color:rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+}
       
       
       
