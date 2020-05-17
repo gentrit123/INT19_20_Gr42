@@ -552,6 +552,18 @@
           </div>
         </div>
       </div>
+      <div class="services">
+        <div class="services-box">
+          <p>Pesha e dashurise</p>
+          <small>
+            Autori:<u>Sara Stridsberg</u></br>
+          Pershkrimi: Eshte nate kur Xhimi gjendet midis debores, afer autostrades per ne aeroport, dhe dergohet drejte Beckombergut, spitalit psikiatrik disa kilometra larg Stokholmit,i madh pothuajse sa nje qytet i vogel, Nuk do te dale prej tij per nje kohe te gjate, aq sa e bija, Xheki do te kaloje nje pjese te madhe te adoleshences brenda kangjellave te nderteses.
+          </small>
+      </div>
+      <div class="services-box">
+        <p>Kujtimet e nje geishe</p>
+        <small>Autori:<u>Arthur Golden</u></br>Pershkrimi: Me "Kujtimet e nje geishe" ne hyjme ne nje bote ku pamja e jashtme ka vlera te jashtezakonshme ku virgjeria e nje vajze i jepet si mall ankandi atij qe ofron me shume,ku grate sterviten te mashtrojne burrat me te pushtetshem dhe ku dashuria ndeshkohet si iluzion.</small>
+    </div>
     
       
       
