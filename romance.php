@@ -40,5 +40,21 @@
         display:flex;
         justify-content:space-between;
         align-items:center;
-        color:#ffffffl
+        color:#ffffff;
       }
+      .header-logo p {
+        font-size:2rem;
+        margin:0;
+      }
+      .header-logo small{
+        color:#c3c3c3;
+      }
+      .header-nav ul{
+        padding:0;
+        margin:0;
+        list-style-type:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+      
