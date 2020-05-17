@@ -168,6 +168,17 @@
         background-repeat:no-repeat;
         background-position:center;
       }
+      .slider-img2 {
+        width:23rem;
+        height:23rem;
+        border:1.5rem solid;
+        border-color:white;
+        border-radius:12rem;
+        background-image: url(tatianadhealeksandri.jpg);
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-position:center;
+      }
         
         
     
